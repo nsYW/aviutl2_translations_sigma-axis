@@ -1,6 +1,6 @@
 ;===============================================================
 ; Target: GroundShadow2_S (https://github.com/sigma-axis/aviutl2_script_GroundShadow2_S)
-; Target Version: v1.05 (for beta25)
+; Target Version: v1.20 (for beta43b)
 ; Language: English
 ; Translator(s):
 ;   sigma-axis (https://github.com/sigma-axis)
@@ -8,14 +8,23 @@
 
 [GroundShadow2_S]
 地面角度=Ground Angle
+水平=Horizontal
 光源角度=Vertical Light Angle
 光源傾斜=Horizontal Light Angle
 回転=Rotate
 配置=Arrangement
 地面位置=Ground Offset
+地面位置X=Ground Offset X
+地面位置Y=Ground Offset Y
+地面位置Z=Ground Offset Z
 カメラ位置=Camera Position
+カメラ位置X=Camera Position X
+カメラ位置Y=Camera Position Y
 視野幅=Field of View
+直投影=Orthogonal Proj
 影位置移動=Shadow Offset
+影位置移動X=Shadow Offset X
+影位置移動Y=Shadow Offset Y
 色/透明度=Color/Transparency
 影色=Shadow Color
 影色強さ=Color Intensity
@@ -25,8 +34,26 @@
 光分散=Light Spread
 境界ぼかし=Shadow Blur
 影の範囲=Shadow Range
+全体=Entire
 先端ぼかし=Range Edge Blur
+描画設定=Drawing Settings
+影を別オブジェクトで描画=Draw Shadow as Separate Object
+合成モード=Blend Mode
+通常=Normal
+加算=Add
+減算=Subtract
+乗算=Multiply
+スクリーン=Screen
+オーバーレイ=Overlay
+比較(明)=Lighter
+比較(暗)=Darker
+輝度=Luminance
+色差=Chrominance
+陰影=Shading
+明暗=Light Dark
+差分=Difference
 その他=Others
 精度=Precision
 画像最大幅=Maximum Width
 画像最大高さ=Maximum Height
+互換対応(将来削除予定)=Legacy (Removed in Future)

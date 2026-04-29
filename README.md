@@ -56,6 +56,9 @@ Currently this repository contains files for the following languages. Note that 
 
 ##  Update History
 
+- **r17** (2026-04-29)
+  - \[English\] Updated translation for [GroundShadow2_S](https://github.com/sigma-axis/aviutl2_script_GroundShadow2_S) to follow v1.20.
+
 - **r16** (2026-04-26)
   - \[English\] Updated translation for [Path_S](https://github.com/sigma-axis/aviutl2_script_Path_S) to follow v1.20.
   - \[English\] Reworded to match [community English translations](https://github.com/aviutl2/aviutl2_community_translation).
