@@ -48,13 +48,17 @@ Currently this repository contains files for the following languages. Note that 
 
 ##  Installation
 
-1.  [Download](https://github.com/sigma-axis/aviutl2_translations_sigma-axis/releases) the `.au2pkg.zip` file with the name of the language to install.
+1.  [Download](https://github.com/sigma-axis/aviutl2_translations_sigma-axis/releases) the `.au2pkg.zip` file.
 
 1.  Then drag and drop the file to the preview window of AviUtl2. AviUtl2 will automatically restart.
 
-1.  Select that language in the language setting menu.
+1.  Select the language in the language setting menu.
 
 ##  Update History
+
+- **r18** (2026-05-02)
+  - Changed the distribution that single `.au2pkg.zip` file now contains all languages.
+  - \[English\] Updated translation for [Basic_S](https://github.com/sigma-axis/aviutl2_script_Basic_S) to follow v2.10.
 
 - **r17** (2026-04-29)
   - \[English\] Updated translation for [GroundShadow2_S](https://github.com/sigma-axis/aviutl2_script_GroundShadow2_S) to follow v1.20.
