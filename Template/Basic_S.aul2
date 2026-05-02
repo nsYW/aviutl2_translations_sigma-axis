@@ -1,6 +1,6 @@
 ;===============================================================
 ; Target: Basic_S (https://github.com/sigma-axis/aviutl2_script_Basic_S)
-; Target Version: v2.01 (for beta 42)
+; Target Version: v2.10 (for beta 43b)
 ; Language: <Language Name>
 ; Translator(s):
 ;   <Name1>
@@ -162,6 +162,19 @@ HSL(双円錐)=HSL(Biconic)
 1固定=Constant Opaque
 その他=Others
 乗算済みα=Premultiplied Alpha
+
+[色オーバーフロー修正@Basic_S]
+色オーバーフロー修正@Basic_S=Color Overflow Correction@Basic_S
+色成分=Color Channels
+足切り頭打ち=Clamp
+色差縮小(標準)=Rescale Chroma (Standard)
+色差縮小(改)=Rescale Chroma (Modified)
+アルファ値=Alpha Channel
+頭打ち=Clamp
+超過分縮小=Rescale Excess
+最大保証+頭打ち=Maximize+Clamp
+最大保証+超過分縮小=Maximize+Rescale Excess
+その他=Others
 
 [回転中心@Basic_S]
 回転中心@Basic_S=Rotation Center@Basic_S
