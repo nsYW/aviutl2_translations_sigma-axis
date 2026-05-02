@@ -56,6 +56,10 @@ Currently this repository contains files for the following languages. Note that 
 
 ##  Update History
 
+- **r19** (2026-05-02)
+
+  - \[English\] Fixed typo in `Swap Color Channels@Basic_S`.
+
 - **r18** (2026-05-02)
   - Changed the distribution that single `.au2pkg.zip` file now contains all languages.
   - \[English\] Updated translation for [Basic_S](https://github.com/sigma-axis/aviutl2_script_Basic_S) to follow v2.10.
