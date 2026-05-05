@@ -22,7 +22,7 @@ Lanczos3=Lanczos 3
 縮小方法=Reduction Method
 Hamming=Hamming
 中心の位置を変更=Change Center Position
-その他=Others
+その他=Misc
 
 [ボックスリサイズσ@Resize_S]
 ボックスリサイズσ@Resize_S=Box Resize S@Resize_S
@@ -49,4 +49,4 @@ Hamming=Hamming
 垂直揃え=Vertical Alignment
 中心の位置を変更=Change Center Position
 余白/クリッピング=Margin/Clipping
-その他=Others
+その他=Misc

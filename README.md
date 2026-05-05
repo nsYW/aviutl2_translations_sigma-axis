@@ -56,8 +56,10 @@ Currently this repository contains files for the following languages. Note that 
 
 ##  Update History
 
-- **r19** (2026-05-02)
+- **r20** (2026-05-05)
+  - \[English\] Changed some words to match [community English translations](https://github.com/aviutl2/aviutl2_community_translation).
 
+- **r19** (2026-05-02)
   - \[English\] Fixed typo in `Swap Color Channels@Basic_S`.
 
 - **r18** (2026-05-02)

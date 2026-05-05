@@ -17,18 +17,18 @@
 倍率Y/G=Multiplier Y/G
 倍率Z/B=Multiplier Z/B
 色空間=Color Space
-その他=Others
+その他=Misc
 
 [色温度σ@WhiteBalance_S]
 色温度σ@WhiteBalance_S=Color Temperature S@WhiteBalance_S
 変換元K=Base Kelvin
 変換先K=Destination Kelvin
 色空間=Color Space
-その他=Others
+その他=Misc
 
 [色温度σ(Mired)@WhiteBalance_S]
 色温度σ(Mired)@WhiteBalance_S=Color Temperature S (Mired)@WhiteBalance_S
 変換元M=Base Mired
 変換先M=Destination Mired
 色空間=Color Space
-その他=Others
+その他=Misc

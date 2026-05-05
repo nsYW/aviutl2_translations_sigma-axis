@@ -35,7 +35,7 @@
 余白高さ=Padding Height
 タイル配置=Tile Placement
 回転=Rotate
-その他=Others
+その他=Misc
 アンチエイリアス=Antialias
 
 [三角タイルσ@Tile_S]
@@ -71,7 +71,7 @@
 余白幅=Padding Size
 タイル配置=Tile Placement
 回転=Rotate
-その他=Others
+その他=Misc
 アンチエイリアス=Antialias
 
 [六角タイルσ@Tile_S]
@@ -98,7 +98,7 @@
 余白幅=Padding Size
 タイル配置=Tile Placement
 回転=Rotate
-その他=Others
+その他=Misc
 アンチエイリアス=Antialias
 
 [菱形タイルσ@Tile_S]
@@ -129,5 +129,5 @@
 余白幅=Padding Size
 タイル配置=Tile Placement
 回転=Rotate
-その他=Others
+その他=Misc
 アンチエイリアス=Antialias

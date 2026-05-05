@@ -26,7 +26,7 @@
 左右反転=Flip Horizontally
 上下反転=Flip Vertically
 180°反転=180° Flip
-その他=Others
+その他=Misc
 
 ;===============================
 ; Transitions (.scn2)
@@ -52,4 +52,4 @@ PageRoll_S(シーンチェンジ)=PageRoll_S (Transition)
 上下反転=Flip Vertically
 180°反転=180° Flip
 反転=Invert
-その他=Others
+その他=Misc

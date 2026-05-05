@@ -31,7 +31,7 @@
 左下半径=Bottom Left Radius
 縦横比=Aspect
 縦横比固定=Fixed Aspect
-その他=Others
+その他=Misc
 ライン幅=Line Width
 
 [背景角丸矩形@Basic_S]
@@ -72,7 +72,7 @@
 左下半径=Bottom Left Radius
 丸角縦横比=Round Corner Aspect
 丸角縦横比固定=Fixed Aspect
-その他=Others
+その他=Misc
 
 [背景楕円@Basic_S]
 背景楕円@Basic_S=Back Ellipse@Basic_S
@@ -93,7 +93,7 @@
 透明度=Transparency
 背景透明度=Background Transparency
 前景透明度=Foreground Transparency
-その他=Others
+その他=Misc
 
 [背景菱形@Basic_S]
 背景菱形@Basic_S=Back Rhombus@Basic_S
@@ -114,7 +114,7 @@
 透明度=Transparency
 背景透明度=Background Transparency
 前景透明度=Foreground Transparency
-その他=Others
+その他=Misc
 
 [透明度適用@Basic_S]
 透明度適用@Basic_S=Apply Transparency@Basic_S
@@ -125,7 +125,7 @@
 透明度二値化@Basic_S=Binarize Transparency
 基準透明度=Threshold
 ぼかし幅=Buffer
-その他=Others
+その他=Misc
 
 [色調補正@Basic_S]
 色調補正@Basic_S=Color Correction@Basic_S
@@ -141,7 +141,7 @@ HSV(円柱)=HSV(Cylindrical)
 HSV(円錐)=HSV(Conic)
 HSL(円柱)=HSL(Cylindrical)
 HSL(双円錐)=HSL(Biconic)
-その他=Others
+その他=Misc
 
 [色チャンネル入れ替え@Basic_S]
 色チャンネル入れ替え@Basic_S=Swap Color Channels@Basic_S
@@ -159,7 +159,7 @@ HSL(双円錐)=HSL(Biconic)
 青反転=Blue Inverted
 アルファ反転=Alpha Inverted
 1固定=Constant Opaque
-その他=Others
+その他=Misc
 乗算済みα=Premultiplied Alpha
 
 [色オーバーフロー修正@Basic_S]
@@ -173,14 +173,14 @@ HSL(双円錐)=HSL(Biconic)
 超過分縮小=Rescale Excess
 最大保証+頭打ち=Maximize+Clamp
 最大保証+超過分縮小=Maximize+Rescale Excess
-その他=Others
+その他=Misc
 
 [回転中心@Basic_S]
 回転中心@Basic_S=Rotation Center@Basic_S
 
 [回転中心アンカー指定@Basic_S]
 回転中心アンカー指定@Basic_S=Rotation Center by Anchor@Basic_S
-その他=Others
+その他=Misc
 
 [上下左右揃え@Basic_S]
 上下左右揃え@Basic_S=Align Four Sides@Basic_S
@@ -210,7 +210,7 @@ XYZ追加回転@Basic_S=Append Rotation XYZ@Basic_S
 描画処理=Rasterization
 描画する=Rasterize
 グループ制御=Under Group Control
-その他=Others
+その他=Misc
 
 [任意軸追加回転@Basic_S]
 任意軸追加回転@Basic_S=Append Rotation Any Axis@Basic_S
@@ -221,7 +221,7 @@ XYZ追加回転@Basic_S=Append Rotation XYZ@Basic_S
 描画処理=Rasterization
 描画する=Rasterize
 グループ制御=Under Group Control
-その他=Others
+その他=Misc
 
 [傾斜@Basic_S]
 傾斜@Basic_S=Skew@Basic_S
@@ -232,7 +232,7 @@ XYZ追加回転@Basic_S=Append Rotation XYZ@Basic_S
 基準軸Y1=Baseline Y1
 基準軸X2=Baseline X2
 基準軸Y2=Baseline Y2
-その他=Others
+その他=Misc
 互換対応(将来削除予定)=Legacy (Removed in Future)
 
 [XY軸変形@Basic_S]
@@ -245,7 +245,7 @@ Y軸=Y-axis
 Y軸移動先X=Y-axis Maps to X
 Y軸移動先Y=Y-axis Maps to Y
 Y長さ変更=Stretch Along Y
-その他=Others
+その他=Misc
 互換対応(将来削除予定)=Legacy (Removed in Future)
 
 [領域サイズ変更@Basic_S]
@@ -256,7 +256,7 @@ Y長さ変更=Stretch Along Y
 右=Right
 中心の位置を変更=Change Center Position
 塗りつぶし=Fill
-その他=Others
+その他=Misc
 
 [領域割合サイズ変更@Basic_S]
 領域割合サイズ変更@Basic_S=Adjust Area by Rate@Basic_S
@@ -266,7 +266,7 @@ Y長さ変更=Stretch Along Y
 右%=Right %
 中心の位置を変更=Change Center Position
 塗りつぶし=Fill
-その他=Others
+その他=Misc
 
 [領域サイズ指定@Basic_S]
 領域サイズ指定@Basic_S=Set Area@Basic_S
@@ -280,7 +280,7 @@ Y長さ変更=Stretch Along Y
 縦横無効化=Disable
 幅指定有効=Enable Width
 高さ指定有効=Enable Height
-その他=Others
+その他=Misc
 反転マスク=Inverted Mask
 
 [カットずらし@Basic_S]
@@ -301,7 +301,7 @@ Y長さ変更=Stretch Along Y
 補間=Gradation
 引き伸ばし=Stretch
 重複処理=Overlap
-その他=Others
+その他=Misc
 互換対応(将来削除予定)=Legacy (Removed in Future)
 
 [中抜きクリッピング@Basic_S]
@@ -321,7 +321,7 @@ Y長さ変更=Stretch Along Y
 補間=Gradation
 引き伸ばし=Stretch
 重複処理=Overlap
-その他=Others
+その他=Misc
 
 [画像中間ループ@Basic_S]
 画像中間ループ@Basic_S=Mid-Range Loop@Basic_S
@@ -360,7 +360,7 @@ Y長さ変更=Stretch Along Y
 ミラー=Mirror
 ミラー(半ピクセル端)=Mirror (Half Edge)
 引き伸ばし=Stretch
-その他=Others
+その他=Misc
 
 [小数ぼかし@Basic_S]
 小数ぼかし@Basic_S=Fraction Blur@Basic_S
@@ -368,7 +368,7 @@ Y長さ変更=Stretch Along Y
 縦横比=Aspect
 光の強さ=Light Intensity
 サイズ固定=Fixed Size
-その他=Others
+その他=Misc
 
 [縁取りα@Basic_S]
 縁取りα@Basic_S=Border Alpha@Basic_S
@@ -380,7 +380,7 @@ Y長さ変更=Stretch Along Y
 パターン画像=Pattern Image
 画像X=Image X
 画像Y=Image Y
-その他=Others
+その他=Misc
 
 [四角縁取り@Basic_S]
 四角縁取り@Basic_S=Square Border@Basic_S
@@ -393,7 +393,7 @@ Y長さ変更=Stretch Along Y
 パターン画像=Pattern Image
 画像X=Image X
 画像Y=Image Y
-その他=Others
+その他=Misc
 
 [内側シャドウ@Basic_S]
 内側シャドウ@Basic_S=Inner Shadow@Basic_S
@@ -417,7 +417,7 @@ Y長さ変更=Stretch Along Y
 パターン画像=Pattern Image
 画像X=Image X
 画像Y=Image Y
-その他=Others
+その他=Misc
 
 [画像ファイル合成@Basic_S]
 画像ファイル合成@Basic_S=Image File Composition@Basic_S
@@ -464,7 +464,7 @@ Y長さ変更=Stretch Along Y
 後続フィルタ=Subsequent Filters
 スクリプト実行=Run Script
 追加スクリプト=Script
-その他=Others
+その他=Misc
 
 [動画ファイル合成@Basic_S]
 動画ファイル合成@Basic_S=Video File Composition@Basic_S
@@ -515,7 +515,7 @@ Y長さ変更=Stretch Along Y
 後続フィルタ=Subsequent Filters
 スクリプト実行=Run Script
 追加スクリプト=Script
-その他=Others
+その他=Misc
 
 [テキスト合成@Basic_S]
 テキスト合成@Basic_S=Text Composition@Basic_S
@@ -600,7 +600,7 @@ Y長さ変更=Stretch Along Y
 後続フィルタ=Subsequent Filters
 スクリプト実行=Run Script
 追加スクリプト=Script
-その他=Others
+その他=Misc
 
 [別レイヤー同期@Basic_S]
 別レイヤー同期@Basic_S=Synchronize Layer@Basic_S
@@ -624,7 +624,7 @@ Z同期%=Z-Pos Sync %
 拡大Z同期%=Z-Zoom Sync %
 透明度=Transparency
 透明度同期%=Transparency Sync %
-その他=Others
+その他=Misc
 
 [バッファをコピー@Basic_S]
 バッファをコピー@Basic_S=Copy Buffers@Basic_S
@@ -636,7 +636,7 @@ Z同期%=Z-Pos Sync %
 このオブジェクト=This Object
 キャッシュ名=Cache Name
 描画しない=Suppress Drawing
-その他=Others
+その他=Misc
 
 ;===============================
 ; Objects (.obj2)
@@ -673,7 +673,7 @@ Z同期%=Z-Pos Sync %
 左下半径=Bottom Left Radius
 丸角縦横比=Round Corner Aspect
 丸角縦横比固定=Fixed Aspect
-その他=Others
+その他=Misc
 
 [楕円@Basic_S]
 楕円@Basic_S=Ellipse@Basic_S
@@ -687,7 +687,7 @@ Z同期%=Z-Pos Sync %
 配置=Alignment
 水平揃え=Horizontal Alignment
 垂直揃え=Vertical Alignment
-その他=Others
+その他=Misc
 
 [菱形@Basic_S]
 菱形@Basic_S=Rhombus@Basic_S
@@ -701,7 +701,7 @@ Z同期%=Z-Pos Sync %
 配置=Alignment
 水平揃え=Horizontal Alignment
 垂直揃え=Vertical Alignment
-その他=Others
+その他=Misc
 
 [スーパー楕円@Basic_S]
 スーパー楕円@Basic_S=Superellipse@Basic_S
@@ -716,7 +716,7 @@ Z同期%=Z-Pos Sync %
 配置=Alignment
 水平揃え=Horizontal Alignment
 垂直揃え=Vertical Alignment
-その他=Others
+その他=Misc
 
 [別レイヤー@Basic_S]
 別レイヤー@Basic_S=Another Layer@Basic_S
@@ -729,7 +729,7 @@ Z同期%=Z-Pos Sync %
 位置の復元=Restore Position
 回転拡大の復元=Restore Rotation Zoom
 透明度の復元=Restore Transparency
-その他=Others
+その他=Misc
 
 [バッファ読み込み@Basic_S]
 バッファ読み込み@Basic_S=Load Buffer@Basic_S
@@ -739,7 +739,7 @@ Z同期%=Z-Pos Sync %
 フレームバッファ=FrameBuffer
 直前オブジェクト=Above Object
 キャッシュ名=Cache Name
-その他=Others
+その他=Misc
 
 ;===============================
 ; Easings (.tra2)

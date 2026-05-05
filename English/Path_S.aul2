@@ -34,7 +34,7 @@
 拡大率=Zoom
 回転=Rotate
 アンカー切り替え=Toggle Anchors
-その他=Others
+その他=Misc
 ぼかし幅=Edge Blur
 
 [パスマスク(ライン)σ@Path_S]
@@ -67,7 +67,7 @@
 拡大率=Zoom
 回転=Rotate
 アンカー切り替え=Toggle Anchors
-その他=Others
+その他=Misc
 ぼかし幅=Edge Blur
 
 [パス部分フィルタσ@Path_S]
@@ -100,7 +100,7 @@
 後続フィルタ=Subsequent Filters
 スクリプト実行=Run Script
 追加スクリプト=Script
-その他=Others
+その他=Misc
 ぼかし幅=Edge Blur
 
 [パスに沿って配置σ@Path_S]
@@ -125,7 +125,7 @@
 ループ=Loop
 曲線精度=Curve Precision
 パスの表示=Display Path
-その他=Others
+その他=Misc
 
 ;===============================
 ; Objects (.obj2)
@@ -166,7 +166,7 @@
 ランダム振幅=Random Offset
 ランダム固定端=Disable Random at Ends
 ランダムシード=Random Seed
-その他=Others
+その他=Misc
 ぼかし幅=Edge Blur
 
 [ラインσ@Path_S]
@@ -196,7 +196,7 @@
 ランダム振幅=Random Offset
 ランダム固定端=Disable Random at Ends
 ランダムシード=Random Seed
-その他=Others
+その他=Misc
 ぼかし幅=Edge Blur
 
 [スパイラルσ@Path_S]
@@ -225,7 +225,7 @@
 ランダム振幅=Random Offset
 ランダム固定端=Disable Random at Ends
 ランダムシード=Random Seed
-その他=Others
+その他=Misc
 ぼかし幅=Edge Blur
 
 [アローσ@Path_S]
@@ -266,7 +266,7 @@
 ランダム振幅=Random Offset
 ランダム固定端=Disable Random at Ends
 ランダムシード=Random Seed
-その他=Others
+その他=Misc
 ぼかし幅=Edge Blur
 
 [スクウェアσ@Path_S]
@@ -303,7 +303,7 @@
 ランダム周期=Random Period
 ランダム振幅=Random Offset
 ランダムシード=Random Seed
-その他=Others
+その他=Misc
 ぼかし幅=Edge Blur
 
 ;===============================

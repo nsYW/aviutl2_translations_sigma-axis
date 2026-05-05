@@ -26,7 +26,7 @@
 透明度設定=Transparency Settings
 透明度=Transparency
 前景透明度=Foreground Transparency
-その他=Others
+その他=Misc
 縦横比=Aspect
 凸半径=Convex Radius
 凹半径=Concave Radius
@@ -46,7 +46,7 @@
 縁の縮小の設定=Shrink Boundary Settings
 縁の縮小=Shrink Boundary
 サイズ固定=Fixed Size
-その他=Others
+その他=Misc
 透明度=Transparency
 縦横比=Aspect
 膨らみ=Expo
@@ -71,7 +71,7 @@
 ライン透明度=Line Transparency
 内側透明度=Inner Transparency
 元画像透明度=Source Transparency
-その他=Others
+その他=Misc
 距離縦横比=Aspect of Distance
 凸半径=Convex Radius
 凹半径=Concave Radius
