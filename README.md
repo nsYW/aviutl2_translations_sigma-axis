@@ -56,6 +56,10 @@ Currently this repository contains files for the following languages. Note that 
 
 ##  Update History
 
+- **r21** (2026-05-11)
+  - \[Simplified Chinese\] Added support for the common plugin [TL Walkaround 2](https://github.com/sigma-axis/aviutl2_tl_walkaround2).
+  - \[Simplified Chinese\] Updated translations for [Basic_S](https://github.com/sigma-axis/aviutl2_script_Basic_S) (v2.10), [GroundShadow2_S](https://github.com/sigma-axis/aviutl2_script_GroundShadow2_S) (v1.20), [Path_S](https://github.com/sigma-axis/aviutl2_script_Path_S) (v1.20), and [Tile_S](https://github.com/sigma-axis/aviutl2_script_Tile_S).
+
 - **r20** (2026-05-05)
   - \[English\] Changed some words to match [community English translations](https://github.com/aviutl2/aviutl2_community_translation).
 
