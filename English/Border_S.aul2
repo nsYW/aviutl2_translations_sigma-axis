@@ -1,6 +1,6 @@
 ;===============================================================
 ; Target: Border_S (https://github.com/sigma-axis/aviutl2_Border_S)
-; Target Version: v1.00 (for beta39)
+; Target Version: v1.10 (for beta46)
 ; Language: English
 ; Translator(s):
 ;   sigma-axis (https://github.com/sigma-axis)
@@ -26,11 +26,17 @@
 透明度設定=Transparency Settings
 透明度=Transparency
 前景透明度=Foreground Transparency
+位置調整=Position Settings
+移動X=Move X
+移動Y=Move Y
 その他=Misc
 縦横比=Aspect
 凸半径=Convex Radius
 凹半径=Concave Radius
 膨らみ=Expo
+ぼかしの種類=Blur Type
+三角分布=Triangular
+ガウス分布=Gaussian
 
 [角丸めσ]
 角丸めσ=Round Corners S
@@ -50,6 +56,9 @@
 透明度=Transparency
 縦横比=Aspect
 膨らみ=Expo
+ぼかしの種類=Blur Type
+三角分布=Triangular
+ガウス分布=Gaussian
 
 [アウトラインσ]
 アウトラインσ=Outline S 
@@ -71,6 +80,9 @@
 ライン透明度=Line Transparency
 内側透明度=Inner Transparency
 元画像透明度=Source Transparency
+位置調整=Position Settings
+移動X=Move X
+移動Y=Move Y
 その他=Misc
 距離縦横比=Aspect of Distance
 凸半径=Convex Radius
@@ -82,6 +94,9 @@
 外側優先=Prefer Outer
 内側優先=Prefer Inner
 速い方=Faster
+ぼかしの種類=Blur Type
+三角分布=Triangular
+ガウス分布=Gaussian
 
 ;===============================
 ; Labels
