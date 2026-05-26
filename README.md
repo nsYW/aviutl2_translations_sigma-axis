@@ -33,6 +33,7 @@ Currently this repository contains files for the following languages. Note that 
 1.  [Path_S](https://github.com/sigma-axis/aviutl2_script_Path_S)
 1.  [PenroseTile_S](https://github.com/sigma-axis/aviutl2_script_PenroseTile_S)
 1.  [RadRotDirBlur_S](https://github.com/sigma-axis/aviutl2_script_RadRotDirBlur_S)
+1.  [Region_S](https://github.com/sigma-axis/aviutl2_script_Region_S)
 1.  [Resize_S](https://github.com/sigma-axis/aviutl2_script_Resize_S)
 1.  [Tile_S](https://github.com/sigma-axis/aviutl2_script_Tile_S)
 1.  [TL Walkaround 2](https://github.com/sigma-axis/aviutl2_tl_walkaround2)
@@ -55,6 +56,11 @@ Currently this repository contains files for the following languages. Note that 
 1.  Select the language in the language setting menu.
 
 ##  Update History
+
+- **r24** (2026-05-26)
+
+  - \[English\] Added support for the script [Region_S](https://github.com/sigma-axis/aviutl2_script_Region_S).
+  - \[English\] Changed wording in a translation of [Basic_S](https://github.com/sigma-axis/aviutl2_script_Basic_S).
 
 - **r23** (2026-05-19)
 

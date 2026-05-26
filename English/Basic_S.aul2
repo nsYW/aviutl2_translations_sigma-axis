@@ -281,7 +281,7 @@ Y長さ変更=Stretch Along Y
 幅指定有効=Enable Width
 高さ指定有効=Enable Height
 その他=Misc
-反転マスク=Inverted Mask
+反転マスク=Invert as Mask
 
 [カットずらし@Basic_S]
 カットずらし@Basic_S=Cut Move@Basic_S

@@ -1,0 +1,288 @@
+;===============================================================
+; Target: Region_S (https://github.com/sigma-axis/aviutl2_script_Region_S)
+; Target Version: v1.00 (for beta47)
+; Language: <Language Name>
+; Translator(s):
+;   <Name1>
+;   <Name2> (<Optional URL>)
+
+;===============================
+; Filters
+;===============================
+[連結成分塗りつぶし@Region_S]
+連結成分塗りつぶし@Region_S=Fill Connected Component@Region_S
+反転=Invert
+サイズ固定=Fixed Size
+追加アンカー=Extra Anchors
+個数=Count
+位置=Coordinates
+色/フィルタ設定=Color/Filter Settings
+適用する操作=Operation
+単色化=Monochrome
+後続フィルタ=Subsequent Filters
+スクリプト実行=Run Script
+色=Color
+強さ=Intensity
+輝度を保持する=Keep Luminance
+スクリプト=Script
+透明度/合成設定=Transparency/Composition Settings
+透明度=Transparency
+元画像透明度=Source Transparency
+モード=Mode
+前方から合成=Composite from the Front
+後方から合成=Composite from the Back
+合成モード=Blend Mode
+通常=Normal
+加算=Add
+減算=Subtract
+乗算=Multiply
+スクリーン=Screen
+オーバーレイ=Overlay
+比較(明)=Lighter
+比較(暗)=Darker
+輝度=Luminance
+色差=Chrominance
+陰影=Shading
+明暗=Light Dark
+差分=Difference
+境界設定=Boundary Settings
+αしきい値=Threshold (α)
+境界の膨張縮小=Extend/Shrink Boundaries
+角で隣接扱い=Connected at Corners
+その他=Misc
+
+[連結成分個別オブジェクト化@Region_S]
+連結成分個別オブジェクト化@Region_S=Individual Objects from Connected Components@Region_S
+個数=Count
+位置=Coordinates
+編集モード=Edit Mode
+出力表示=Output View
+番号のみ表示=Number and Chromes
+アンカー編集=Edit Anchors
+ディレイ設定=Delay Settings
+開始遅延=Start Delay
+時間指定=Time Specification
+絶対指定=Absolute
+相対指定=Relative
+時間範囲外=Out of Time Range
+表示=Visible
+早過ぎを非表示=Hidden Too Early
+遅過ぎを非表示=Hidden Too Late
+非表示=Hidden
+境界設定=Boundary Settings
+αしきい値=Threshold (α)
+角で隣接扱い=Connected at Corners
+その他=Misc
+サイズ固定=Fixed Size
+アンカー=Anchors
+通常=Normal
+小さい=Small
+
+
+[色領域塗りつぶし@Region_S]
+色領域塗りつぶし@Region_S=Fill Color Region@Region_S
+反転=Invert
+サイズ固定=Fixed Size
+色/フィルタ設定=Color/Filter Settings
+適用する操作=Operation
+単色化=Monochrome
+後続フィルタ=Subsequent Filters
+スクリプト実行=Run Script
+色=Color
+強さ=Intensity
+輝度を保持する=Keep Luminance
+スクリプト=Script
+透明度/合成設定=Transparency/Composition Settings
+透明度=Transparency
+元画像透明度=Source Transparency
+モード=Mode
+前方から合成=Composite from the Front
+後方から合成=Composite from the Back
+合成モード=Blend Mode
+通常=Normal
+加算=Add
+減算=Subtract
+乗算=Multiply
+スクリーン=Screen
+オーバーレイ=Overlay
+比較(明)=Lighter
+比較(暗)=Darker
+輝度=Luminance
+色差=Chrominance
+陰影=Shading
+明暗=Light Dark
+差分=Difference
+境界設定=Boundary Settings
+色範囲=Color Range
+R範囲補正=R Range Correction
+G範囲補正=G Range Correction
+B範囲補正=B Range Correction
+境界の膨張縮小=Extend/Shrink Boundaries
+角で隣接扱い=Connected at Corners
+左端を連結扱い=Connected Along Left Edge
+右端を連結扱い=Connected Along Right Edge
+上端を連結扱い=Connected Along Top Edge
+下端を連結扱い=Connected Along Bottom Edge
+透明ピクセルを連結扱い=Connected Through Transparent Pixels
+その他=Misc
+
+[透明領域塗りつぶし@Region_S]
+透明領域塗りつぶし@Region_S=Fill Transparent Region@Region_S
+色=Color
+透明度=Transparency
+反転=Invert
+追加アンカー=Extra Anchors
+個数=Count
+位置=Coordinates
+追加効果=Extra Filters
+追加のフィルタ効果=Extra Filter Effects
+なし=None
+後続フィルタ=Subsequent Filters
+スクリプト実行=Run Script
+スクリプト=Script
+透明度/合成設定=Transparency/Composition Settings
+元画像透明度=Source Transparency
+モード=Mode
+前方から合成=Composite from the Front
+後方から合成=Composite from the Back
+合成モード=Blend Mode
+通常=Normal
+加算=Add
+減算=Subtract
+乗算=Multiply
+スクリーン=Screen
+オーバーレイ=Overlay
+比較(明)=Lighter
+比較(暗)=Darker
+輝度=Luminance
+色差=Chrominance
+陰影=Shading
+明暗=Light Dark
+差分=Difference
+境界設定=Boundary Settings
+αしきい値=Threshold (α)
+境界の膨張縮小=Extend/Shrink Boundaries
+角で隣接扱い=Connected at Corners
+左端を連結扱い=Connected Along Left Edge
+右端を連結扱い=Connected Along Right Edge
+上端を連結扱い=Connected Along Top Edge
+下端を連結扱い=Connected Along Bottom Edge
+その他=Misc
+
+[穴埋め@Region_S]
+穴埋め@Region_S=Fill Holes@Region_S
+色=Color
+透明度=Transparency
+反転=Invert
+追加効果=Extra Filters
+追加のフィルタ効果=Extra Filter Effects
+なし=None
+後続フィルタ=Subsequent Filters
+スクリプト実行=Run Script
+スクリプト=Script
+透明度/合成設定=Transparency/Composition Settings
+元画像透明度=Source Transparency
+モード=Mode
+前方から合成=Composite from the Front
+後方から合成=Composite from the Back
+合成モード=Blend Mode
+通常=Normal
+加算=Add
+減算=Subtract
+乗算=Multiply
+スクリーン=Screen
+オーバーレイ=Overlay
+比較(明)=Lighter
+比較(暗)=Darker
+輝度=Luminance
+色差=Chrominance
+陰影=Shading
+明暗=Light Dark
+差分=Difference
+境界設定=Boundary Settings
+αしきい値=Threshold (α)
+境界の膨張縮小=Extend/Shrink Boundaries
+角で隣接扱い=Connected at Corners
+左端を連結扱い=Connected Along Left Edge
+右端を連結扱い=Connected Along Right Edge
+上端を連結扱い=Connected Along Top Edge
+下端を連結扱い=Connected Along Bottom Edge
+その他=Misc
+
+[領域クロマキー@Region_S]
+領域クロマキー@Region_S=Regional Chroma Key@Region_S
+反転=Invert
+追加アンカー=Extra Anchors
+個数=Count
+位置=Coordinates
+クロマキー設定=Chroma Key Settings
+色相範囲=Hue Range
+彩度範囲=Saturation Range
+境界補正=Edge Correction
+基準色=Reference Color
+色彩補正=Color Correction
+透過補正=Transparency Correction
+境界設定=Boundary Settings
+αしきい値=Threshold (α)
+境界の膨張縮小=Extend/Shrink Boundaries
+角で隣接扱い=Connected at Corners
+左端を連結扱い=Connected Along Left Edge
+右端を連結扱い=Connected Along Right Edge
+上端を連結扱い=Connected Along Top Edge
+下端を連結扱い=Connected Along Bottom Edge
+その他=Misc
+
+[領域カラーキー@Region_S]
+領域カラーキー@Region_S=Regional Color Key@Region_S
+反転=Invert
+追加アンカー=Extra Anchors
+個数=Count
+位置=Coordinates
+カラーキー設定=Color Key Settings
+輝度範囲=Luminance Range
+色差範囲=Chrominance Range
+境界補正=Edge Correction
+基準色=Reference Color
+境界設定=Boundary Settings
+αしきい値=Threshold (α)
+境界の膨張縮小=Extend/Shrink Boundaries
+角で隣接扱い=Connected at Corners
+左端を連結扱い=Connected Along Left Edge
+右端を連結扱い=Connected Along Right Edge
+上端を連結扱い=Connected Along Top Edge
+下端を連結扱い=Connected Along Bottom Edge
+その他=Misc
+
+[領域ルミナンスキー@Region_S]
+領域ルミナンスキー@Region_S=Regional Luminance Key@Region_S
+反転=Invert
+追加アンカー=Extra Anchors
+個数=Count
+位置=Coordinates
+ルミナンスキー設定=Luminance Key Settings
+基準輝度=Reference Luminance
+輝度範囲=Luminance Range
+モード=Mode
+暗い部分を透過=Transparent Dark Areas
+明るい部分を透過=Transparent Bright Areas
+明暗部分を透過=Transparent Light/Dark Areas
+明暗部分を透過(補間無し)=Transparent Light/Dark Areas (No Interpolation)
+基準部分を透過=Transparent Reference Areas
+基準部分を透過(補間無し)=Transparent Reference Areas (No Interpolation)
+境界設定=Boundary Settings
+αしきい値=Threshold (α)
+境界の膨張縮小=Extend/Shrink Boundaries
+角で隣接扱い=Connected at Corners
+左端を連結扱い=Connected Along Left Edge
+右端を連結扱い=Connected Along Right Edge
+上端を連結扱い=Connected Along Top Edge
+下端を連結扱い=Connected Along Bottom Edge
+その他=Misc
+
+;===============================
+; Labels
+;===============================
+[Effect]
+Region_S\加工=Region S\Processing
+Region_S\配置=Region S\Arrangement
+Region_S\抽出=Region_S\Extraction
