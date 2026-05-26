@@ -57,6 +57,10 @@ Currently this repository contains files for the following languages. Note that 
 
 ##  Update History
 
+- **r25** (2026-05-27)
+
+  - \[English\] Fixed typo and wordings in [Region_S](https://github.com/sigma-axis/aviutl2_script_Region_S).
+
 - **r24** (2026-05-26)
 
   - \[English\] Added support for the script [Region_S](https://github.com/sigma-axis/aviutl2_script_Region_S).
