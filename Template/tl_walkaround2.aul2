@@ -1,6 +1,6 @@
 ;===============================================================
 ; Target: TL Walkaround 2 (https://github.com/sigma-axis/aviutl2_tl_walkaround2)
-; Target Version: v1.40 (for beta40a)
+; Target Version: v1.50 (for beta47)
 ; Language: <Language Name>
 ; Translator(s):
 ;   <Name1>
@@ -12,6 +12,11 @@ TLショトカ移動2=TL Walkaround 2
 [Plugin.TLショトカ移動2]
 移動量(%):=Move Amount(%):
 BPM移動分母:=Move N-th BPM Grid:
+レイヤー無視:=Ignore Layers:
+なし=None
+非表示=Hidden
+ロック=Locked
+非表示とロック=Hidden or Locked
 範囲選択を抑制=Suppress Selecting Range
 選択オブジェクトの追従=Follow Selected Objects
 長さの調整:=Stretch Object Length:
@@ -54,6 +59,7 @@ BPM移動分母:=Move N-th BPM Grid:
 最下端へスクロール=Scroll to Bottom
 選択レイヤーへスクロール=Scroll to Selected Layer
 
+; NOTE: "現在フレームのオブジェクトを選択(逆順)" was removed in v1.42, but leave it for backward compatibility.
 現在フレームのオブジェクトを選択(逆順)=Select Objects at Current Frame (Reverse)
 左のオブジェクトを選択=Select Object Left
 右のオブジェクトを選択=Select Object Right

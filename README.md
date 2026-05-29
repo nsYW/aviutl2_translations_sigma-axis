@@ -57,6 +57,10 @@ Currently this repository contains files for the following languages. Note that 
 
 ##  Update History
 
+- **r26** (2026-05-30)
+
+  - \[English\] Updated translation for [TL Walkaround 2](https://github.com/sigma-axis/aviutl2_tl_walkaround2) to follow up v1.50.
+
 - **r25** (2026-05-27)
 
   - \[English\] Fixed typo and wordings in [Region_S](https://github.com/sigma-axis/aviutl2_script_Region_S).
