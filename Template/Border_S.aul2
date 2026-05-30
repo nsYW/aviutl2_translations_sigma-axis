@@ -1,6 +1,6 @@
 ;===============================================================
 ; Target: Border_S (https://github.com/sigma-axis/aviutl2_Border_S)
-; Target Version: v1.10 (for beta46)
+; Target Version: v1.20 (for beta48)
 ; Language: <Language Name>
 ; Translator(s):
 ;   <Name1>
@@ -30,6 +30,17 @@
 位置調整=Position Settings
 移動X=Move X
 移動Y=Move Y
+パターン画像=Pattern Image
+パターンの種類=Pattern Type
+単色=Single Color
+画像ファイル=Image File
+仮想バッファ=Temporal Buffer
+回転=Rotation
+拡大率=Scale
+基準位置=Origin
+元画像=Source
+縁部分=Border
+補間なし=No Interpolation
 その他=Misc
 縦横比=Aspect
 凸半径=Convex Radius
@@ -84,6 +95,17 @@
 位置調整=Position Settings
 移動X=Move X
 移動Y=Move Y
+パターン画像=Pattern Image
+パターンの種類=Pattern Type
+単色=Single Color
+画像ファイル=Image File
+仮想バッファ=Temporal Buffer
+回転=Rotation
+拡大率=Scale
+基準位置=Origin
+元画像=Source
+縁部分=Border
+補間なし=No Interpolation
 その他=Misc
 距離縦横比=Aspect of Distance
 凸半径=Convex Radius

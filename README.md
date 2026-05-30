@@ -57,6 +57,10 @@ Currently this repository contains files for the following languages. Note that 
 
 ##  Update History
 
+- **r27** (2026-05-30)
+
+  - \[English\] Updated translation for [Border_S](https://github.com/sigma-axis/aviutl2_Border_S) to follow up v1.20.
+
 - **r26** (2026-05-30)
 
   - \[English\] Updated translation for [TL Walkaround 2](https://github.com/sigma-axis/aviutl2_tl_walkaround2) to follow up v1.50.
