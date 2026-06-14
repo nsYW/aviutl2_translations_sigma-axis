@@ -1,6 +1,6 @@
 ;===============================================================
 ; Target: Basic_S (https://github.com/sigma-axis/aviutl2_script_Basic_S)
-; Target Version: v2.21 (for beta49)
+; Target Version: v2.30 (for beta50)
 ; Language: <Language Name>
 ; Translator(s):
 ;   <Name1>
@@ -692,6 +692,17 @@ Z同期%=Z-Pos Sync %
 このオブジェクト=This Object
 キャッシュ名=Cache Name
 描画しない=Suppress Drawing
+その他=Misc
+
+[バッファをクリア@Basic_S]
+バッファをクリア@Basic_S=Clear Buffers@Basic_S
+バッファ=Buffer
+仮想バッファ=Temporal Buffer
+一時キャッシュ=Temporal Cache
+フレームバッファ=Frame Buffer
+このオブジェクト=This Object
+キャッシュ名=Cache Name
+色=Color
 その他=Misc
 
 ;===============================
