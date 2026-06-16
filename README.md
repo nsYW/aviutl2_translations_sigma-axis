@@ -57,6 +57,10 @@ Currently this repository contains files for the following languages. Note that 
 
 ##  Update History
 
+- **r30** (2026-06-16)
+
+  - \[English\] Updated translation for [RadRotDirBlur_S](https://github.com/sigma-axis/aviutl2_script_RadRotDirBlur_S) to follow up v1.10.
+
 - **r29** (2026-06-14)
 
   - \[English\] Updated translation for [Basic_S](https://github.com/sigma-axis/aviutl2_script_Basic_S) to follow up v2.30.
