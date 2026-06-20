@@ -1,6 +1,6 @@
 ;===============================================================
 ; Target: Tile_S (https://github.com/sigma-axis/aviutl2_script_Tile_S)
-; Target Version: v1.03 (for beta25)
+; Target Version: v1.20 (for beta51)
 ; Language: English
 ; Translator(s):
 ;   sigma-axis (https://github.com/sigma-axis)
@@ -10,6 +10,10 @@
 幅=Width
 高さ=Height
 背景サイズ=Screen Size
+タイル種類=Tile Types
+1種類=1 Type
+2種類=2 Types
+4種類=4 Types
 色設定=Color Settings
 色1=Color 1
 内部色1=Inner Color 1
@@ -43,6 +47,11 @@
 幅=Width
 高さ=Height
 背景サイズ=Screen Size
+タイル種類=Tile Types
+1種類=1 Type
+2種類=2 Types
+3種類=3 Types
+6種類=6 Types
 色設定=Color Settings
 色1=Color 1
 内部色1=Inner Color 1
@@ -79,6 +88,9 @@
 幅=Width
 高さ=Height
 背景サイズ=Screen Size
+タイル種類=Tile Types
+1種類=1 Type
+3種類=3 Types
 色設定=Color Settings
 色1=Color 1
 内部色1=Inner Color 1
@@ -106,6 +118,10 @@
 幅=Width
 高さ=Height
 背景サイズ=Screen Size
+タイル種類=Tile Types
+1種類=1 Type
+2種類=2 Types
+4種類=4 Types
 色設定=Color Settings
 色1=Color 1
 内部色1=Inner Color 1

@@ -57,6 +57,10 @@ Currently this repository contains files for the following languages. Note that 
 
 ##  Update History
 
+- **r31** (2026-06-21)
+
+  - \[English\] Updated translation for [Tile_S](https://github.com/sigma-axis/aviutl2_script_Tile_S) to follow up v1.20.
+
 - **r30** (2026-06-16)
 
   - \[English\] Updated translation for [RadRotDirBlur_S](https://github.com/sigma-axis/aviutl2_script_RadRotDirBlur_S) to follow up v1.10.
