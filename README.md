@@ -45,7 +45,7 @@ Currently this repository contains files for the following languages. Note that 
 
   http://spring-fragrance.mints.ne.jp/aviutl
 
-  - Confirmed to work on: `beta50`
+  - Confirmed to work on: `beta51`
 
 ##  Installation
 
@@ -56,6 +56,10 @@ Currently this repository contains files for the following languages. Note that 
 1.  Select the language in the language setting menu.
 
 ##  Update History
+
+- **r32** (2026-06-25)
+
+  - \[English\] Updated translation for [PageRoll_S](https://github.com/sigma-axis/aviutl2_script_PageRoll_S) to follow up v1.20.
 
 - **r31** (2026-06-21)
 

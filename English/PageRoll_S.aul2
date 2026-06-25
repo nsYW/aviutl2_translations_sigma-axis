@@ -1,6 +1,6 @@
 ;===============================================================
 ; Target: PageRoll_S (https://github.com/sigma-axis/aviutl2_script_PageRoll_S)
-; Target Version: v1.12 (for beta25)
+; Target Version: v1.20 (for beta51)
 ; Language: English
 ; Translator(s):
 ;   sigma-axis (https://github.com/sigma-axis)
@@ -20,7 +20,13 @@
 陰影=Shadow Intensity
 領域外も描画=Extend Drawing Area
 裏地設定=Lining Settings
+裏地種類=Lining Type
+元画像/画像ファイル=Original / Image File
+フレームバッファ=Frame Buffer
+仮想バッファ=Temporal Buffer
+一時キャッシュ=Temporal Cache
 裏地画像=Lining Image
+キャッシュ名=Cache Name
 裏地向き=Lining Orientation
 通常=Normal
 左右反転=Flip Horizontally
@@ -45,7 +51,10 @@ PageRoll_S(シーンチェンジ)=PageRoll_S (Transition)
 上側=Over
 下側=Underneath
 指定画像=Specified Image
+仮想バッファ=Temporal Buffer
+一時キャッシュ=Temporal Cache
 裏地画像=Lining Image
+キャッシュ名=Cache Name
 裏地向き=Lining Orientation
 通常=Normal
 左右反転=Flip Horizontally
