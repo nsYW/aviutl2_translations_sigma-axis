@@ -1,6 +1,6 @@
 ;===============================================================
 ; Target: ColoredCollar_S (https://github.com/sigma-axis/aviutl2_script_ColoredCollar_S)
-; Target Version: v1.00 (for beta5)
+; Target Version: v2.00 (for beta51)
 ; Language: English
 ; Translator(s):
 ;   sigma-axis (https://github.com/sigma-axis)
@@ -8,7 +8,15 @@
 [ColoredCollar_S]
 サイズ=Size
 ぼかし=Blur
-透明度=Transparency
+色拡散=Color Diffusion
+αしきい値=Threshold (α)
+サイズ固定=Fixed Size
+色設定=Color Settings
 縁色=Color
 色の濃さ=Color Opacity
+縁色外側=Outer Color
+透明度設定=Transparency Settings
+透明度=Transparency
 前景透明度=Foreground Transparency
+その他=Misc
+錯視軽減=Smooth Gradation

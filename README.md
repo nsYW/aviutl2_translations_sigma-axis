@@ -57,6 +57,10 @@ Currently this repository contains files for the following languages. Note that 
 
 ##  Update History
 
+- **r33** (2026-06-27)
+
+  - \[English\] Updated translation for [ColoredCollar_S](https://github.com/sigma-axis/aviutl2_script_ColoredCollar_S) to follow up v2.00.
+
 - **r32** (2026-06-25)
 
   - \[English\] Updated translation for [PageRoll_S](https://github.com/sigma-axis/aviutl2_script_PageRoll_S) to follow up v1.20.
