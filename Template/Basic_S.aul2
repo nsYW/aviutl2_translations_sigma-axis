@@ -1,6 +1,6 @@
 ;===============================================================
 ; Target: Basic_S (https://github.com/sigma-axis/aviutl2_script_Basic_S)
-; Target Version: v2.30 (for beta50)
+; Target Version: v2.40 (for beta52)
 ; Language: <Language Name>
 ; Translator(s):
 ;   <Name1>
@@ -62,11 +62,17 @@
 色/パターン画像=Color/Pattern
 色=Color
 パターン画像=Pattern Image
+画像X=Image X
+画像Y=Image Y
 背景色=Background
 背景パターン画像=Background Image
+透明度設定=Transparency Settings
 透明度=Transparency
 背景透明度=Background Transparency
 前景透明度=Foreground Transparency
+位置設定=Position Settings
+移動X=Move X
+移動Y=Move Y
 丸角設定=Corner Settings
 半径均一=Uniform Radius
 右上半径=Top Right Radius
@@ -90,11 +96,17 @@
 色/パターン画像=Color/Pattern
 色=Color
 パターン画像=Pattern Image
+画像X=Image X
+画像Y=Image Y
 背景色=Background
 背景パターン画像=Background Image
+透明度設定=Transparency Settings
 透明度=Transparency
 背景透明度=Background Transparency
 前景透明度=Foreground Transparency
+位置設定=Position Settings
+移動X=Move X
+移動Y=Move Y
 その他=Misc
 
 [背景菱形@Basic_S]
@@ -111,11 +123,17 @@
 色/パターン画像=Color/Pattern
 色=Color
 パターン画像=Pattern Image
+画像X=Image X
+画像Y=Image Y
 背景色=Background
 背景パターン画像=Background Image
+透明度設定=Transparency Settings
 透明度=Transparency
 背景透明度=Background Transparency
 前景透明度=Foreground Transparency
+位置設定=Position Settings
+移動X=Move X
+移動Y=Move Y
 その他=Misc
 
 [透明度適用@Basic_S]
@@ -370,6 +388,10 @@ Y長さ変更=Stretch Along Y
 縦横比=Aspect
 光の強さ=Light Intensity
 サイズ固定=Fixed Size
+分布=Distribution
+矩形分布=Box
+三角分布=Triangular
+ガウス分布=Gaussian
 その他=Misc
 
 [縁取りα@Basic_S]

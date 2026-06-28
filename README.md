@@ -57,6 +57,10 @@ Currently this repository contains files for the following languages. Note that 
 
 ##  Update History
 
+- **r34** (2026-06-28)
+
+  - \[English\] Updated translation for [Basic_S](https://github.com/sigma-axis/aviutl2_script_Basic_S) to follow up v2.40.
+
 - **r33** (2026-06-27)
 
   - \[English\] Updated translation for [ColoredCollar_S](https://github.com/sigma-axis/aviutl2_script_ColoredCollar_S) to follow up v2.00.
