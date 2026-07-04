@@ -1,6 +1,6 @@
 ;===============================================================
 ; Target: ColoredCollar_S (https://github.com/sigma-axis/aviutl2_script_ColoredCollar_S)
-; Target Version: v1.00 (for beta5)
+; Target Version: v2.00 (for beta51)
 ; Language: 简体中文
 ; Translator(s):
 ;   正电子海(Nsyw) (https://space.bilibili.com/3631925)
@@ -9,5 +9,12 @@
 ColoredCollar_S=上色描边σ
 サイズ=尺寸
 ぼかし=模糊
+色拡散=颜色扩散
+αしきい値=Alpha阈值
+サイズ固定=固定尺寸
+色設定=颜色设置
 縁色=描边颜色
 色の濃さ=颜色浓度
+縁色外側=外侧描边颜色
+その他=其他
+錯視軽減=减缓错视
