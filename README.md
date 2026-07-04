@@ -45,7 +45,7 @@ Currently this repository contains files for the following languages. Note that 
 
   http://spring-fragrance.mints.ne.jp/aviutl
 
-  - Confirmed to work on: `beta51`
+  - Confirmed to work on: `beta52`
 
 ##  Installation
 
@@ -56,6 +56,10 @@ Currently this repository contains files for the following languages. Note that 
 1.  Select the language in the language setting menu.
 
 ##  Update History
+
+- **r35** (2026-07-04)
+
+  - \[English\] Updated translation for [Path_S](https://github.com/sigma-axis/aviutl2_script_Path_S) to follow up v2.00.
 
 - **r34** (2026-06-28)
 

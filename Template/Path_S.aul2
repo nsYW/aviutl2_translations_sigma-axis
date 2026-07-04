@@ -1,6 +1,6 @@
 ;===============================================================
 ; Target: Path_S (https://github.com/sigma-axis/aviutl2_script_Path_S)
-; Target Version: v1.20 (for beta43)
+; Target Version: v2.00 (for beta52)
 ; Language: <Language Name>
 ; Translator(s):
 ;   <Name1>
@@ -59,6 +59,16 @@
 端の形状=Line End Cap
 円=Round
 四角=Square
+平坦=Flat
+三角=Triangle
+線結合の形状=Line Joint
+ラウンド=Round
+ベベル=Bevel
+マイター=Miter
+ブランク=Blank
+ブランク+ラウンド=Blank / Round
+ブランク+ベベル=Blank / Bevel
+マイター限界=Miter Limit
 破線パターン=Dash Pattern
 破線周期補正=Adjust Dash Period
 破線位置=Dash Offset
@@ -153,6 +163,16 @@
 端の形状=Line End Cap
 円=Round
 四角=Square
+平坦=Flat
+三角=Triangle
+線結合の形状=Line Joint
+ラウンド=Round
+ベベル=Bevel
+マイター=Miter
+ブランク=Blank
+ブランク+ラウンド=Blank / Round
+ブランク+ベベル=Blank / Bevel
+マイター限界=Miter Limit
 破線パターン=Dash Pattern
 破線周期補正=Adjust Dash Period
 破線位置=Dash Offset
@@ -172,6 +192,8 @@
 
 [ラインσ@Path_S]
 ラインσ@Path_S=Line S@Path_S
+始点X=Line Start X
+始点Y=Line Start Y
 終点X=Line Finish X
 終点Y=Line Finish Y
 ライン幅=Line Width
@@ -187,9 +209,21 @@
 周期位置=Phase
 振幅=Amplitude
 ライン設定=Line Settings
+開始位置=Line Start
+終了位置=Line Finish
 端の形状=Line End Cap
 円=Round
 四角=Square
+平坦=Flat
+三角=Triangle
+線結合の形状=Line Joint
+ラウンド=Round
+ベベル=Bevel
+マイター=Miter
+ブランク=Blank
+ブランク+ラウンド=Blank / Round
+ブランク+ベベル=Blank / Bevel
+マイター限界=Miter Limit
 破線パターン=Dash Pattern
 破線位置=Dash Offset
 ランダム変化=Random Deformation
@@ -202,6 +236,10 @@
 
 [スパイラルσ@Path_S]
 スパイラルσ@Path_S=Spiral S@Path_S
+始点X=Line Start X
+始点Y=Line Start Y
+終点X=Line Finish X
+終点Y=Line Finish Y
 開始半径=Start Radius
 終了半径=Finish Radius
 ライン幅=Line Width
@@ -215,10 +253,14 @@
 ずれX=Tilt X
 ずれY=Tilt Y
 ライン設定=Line Settings
+開始位置=Line Start
+終了位置=Line Finish
 端の形状=Line End Cap
-曲線精度=Curve Precision
 円=Round
 四角=Square
+平坦=Flat
+三角=Triangle
+曲線精度=Curve Precision
 破線パターン=Dash Pattern
 破線位置=Dash Offset
 ランダム変化=Random Deformation
@@ -249,6 +291,16 @@
 端の形状=Line End Cap
 円=Round
 四角=Square
+平坦=Flat
+三角=Triangle
+線結合の形状=Line Joint
+ラウンド=Round
+ベベル=Bevel
+マイター=Miter
+ブランク=Blank
+ブランク+ラウンド=Blank / Round
+ブランク+ベベル=Blank / Bevel
+マイター限界=Miter Limit
 破線パターン=Dash Pattern
 破線位置=Dash Offset
 矢じり設定=Arrowhead Settings
@@ -295,6 +347,15 @@
 端の形状=Line End Cap
 円=Round
 四角=Square
+平坦=Flat
+三角=Triangle
+線結合の形状=Line Joint
+ラウンド=Round
+ベベル=Bevel
+マイター=Miter
+ブランク=Blank
+ブランク+ラウンド=Blank / Round
+ブランク+ベベル=Blank / Bevel
 破線パターン=Dash Pattern
 破線位置=Dash Offset
 塗り設定=Fill Settings
