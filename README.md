@@ -45,7 +45,7 @@ Currently this repository contains files for the following languages. Note that 
 
   http://spring-fragrance.mints.ne.jp/aviutl
 
-  - Confirmed to work on: `beta52`
+  - Confirmed to work on: `beta53`
 
 ##  Installation
 
@@ -56,6 +56,21 @@ Currently this repository contains files for the following languages. Note that 
 1.  Select the language in the language setting menu.
 
 ##  Update History
+
+- **r36** (2026-07-05)
+
+  - \[Simplified Chinese\] Added support for the common plugin [Region_S](https://github.com/sigma-axis/aviutl2_script_Region_S).
+
+  - \[Simplified Chinese\] Updated the following translations:
+
+    1.  [Basic_S](https://github.com/sigma-axis/aviutl2_script_Basic_S) v2.21.
+    1.  [Border_S](https://github.com/sigma-axis/aviutl2_Border_S) v1.20.
+    1.  [ColoredCollar_S](https://github.com/sigma-axis/aviutl2_script_ColoredCollar_S) v2.00.
+    1.  [PageRoll_S](https://github.com/sigma-axis/aviutl2_script_PageRoll_S) v1.20.
+    1.  [Path_S](https://github.com/sigma-axis/aviutl2_script_Path_S) v2.00.
+    1.  [RadRotDirBlur_S](https://github.com/sigma-axis/aviutl2_script_RadRotDirBlur_S) v1.10.
+    1.  [Tile_S](https://github.com/sigma-axis/aviutl2_script_Tile_S) v1.20.
+    1.  [TL Walkaround 2](https://github.com/sigma-axis/aviutl2_tl_walkaround2) v1.50.
 
 - **r35** (2026-07-04)
 
