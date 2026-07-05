@@ -57,6 +57,10 @@ Currently this repository contains files for the following languages. Note that 
 
 ##  Update History
 
+- **r37** (2026-07-05)
+
+  - \[Simplified Chinese\] Updated translation for [Basic_S](https://github.com/sigma-axis/aviutl2_script_Basic_S) to follow up v2.40.
+
 - **r36** (2026-07-05)
 
   - \[Simplified Chinese\] Added support for the common plugin [Region_S](https://github.com/sigma-axis/aviutl2_script_Region_S).
