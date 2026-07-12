@@ -57,6 +57,10 @@ Currently this repository contains files for the following languages. Note that 
 
 ##  Update History
 
+- **r41** (2026-07-12)
+
+  - \[English\] Fixed untranslated words for [Basic_S](https://github.com/sigma-axis/aviutl2_script_Basic_S).
+
 - **r40** (2026-07-12)
 
   - \[English\] Updated translation for [Basic_S](https://github.com/sigma-axis/aviutl2_script_Basic_S) to follow up v2.60, aside from tooltips.

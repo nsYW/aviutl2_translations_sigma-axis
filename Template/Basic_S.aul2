@@ -908,7 +908,7 @@ N次式@Basic_S=Power Ease@Basic_S
 
 [コマ落ち反復(回数)@Basic_S]
 コマ落ち反復(回数)@Basic_S=Repeat Discrete (Count)@Basic_S
-周期(回数)=Period (回数)
+周期(回数)=Period (Count)
 周期ずれ%=Initial Phase (%)
 デューティ比%=Duty Cycle (%)
 
@@ -946,7 +946,7 @@ N次式@Basic_S=Power Ease@Basic_S
 
 [コマ落ちランダム(回数)@Basic_S]
 コマ落ちランダム(回数)@Basic_S=Random Discrete (Count)@Basic_S
-周期(回数)=Period (回数)
+周期(回数)=Period (Count)
 周期ずれ%=Initial Phase (%)
 乱数シード=Random Seed
 
@@ -979,7 +979,7 @@ N次式@Basic_S=Power Ease@Basic_S
 
 [時間制御繰り返し(回数)@Basic_S]
 時間制御繰り返し(回数)@Basic_S=Repeat Time Control (Count)@Basic_S
-周期(回数)=Period (回数)
+周期(回数)=Period (Count)
 周期ずれ%=Initial Phase (%)
 
 [時間制御繰り返し往復(秒)@Basic_S]
@@ -1011,7 +1011,7 @@ N次式@Basic_S=Power Ease@Basic_S
 
 [時間制御繰り返し往復(回数)@Basic_S]
 時間制御繰り返し往復(回数)@Basic_S=Repeat Back Forth Time Control (Count)@Basic_S
-周期(回数)=Period (回数)
+周期(回数)=Period (Count)
 周期ずれ%=Initial Phase (%)
 
 [対数補間@Basic_S]
