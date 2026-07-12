@@ -24,7 +24,7 @@ Hamming=汉明滤波
 その他=其他
 
 ;[Tips.リサイズσ@Resize_S]
-;effect.name=Zoom filter that allows to select scaling methods.
+;effect.name=Zooming filter that allows to select scaling methods.
 
 [ボックスリサイズσ@Resize_S]
 ボックスリサイズσ@Resize_S=方框尺寸调整σ@Resize_S
@@ -55,7 +55,7 @@ Hamming=汉明滤波
 その他=其他
 
 ;[Tips.ボックスリサイズσ@Resize_S]
-;effect.name=Applies zoom filter to fit a rectangle of the specified size.
+;effect.name=Applies zooming filter to fit a rectangle of the specified size.
 ;背景サイズ=Fits to the screen size, ignoring the settings of width and height.
 ;水平揃え=Valid only when "Margin/Clipping" is turned on. Adjusts the size of margin/clipping.
 ;垂直揃え=Valid only when "Margin/Clipping" is turned on. Adjusts the size of margin/clipping.

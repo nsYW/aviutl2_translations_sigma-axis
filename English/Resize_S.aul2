@@ -25,7 +25,7 @@ Hamming=Hamming
 その他=Misc
 
 [Tips.リサイズσ@Resize_S]
-effect.name=Zoom filter that allows to select scaling methods.
+effect.name=Zooming filter that allows to select scaling methods.
 
 [ボックスリサイズσ@Resize_S]
 ボックスリサイズσ@Resize_S=Box Resize S@Resize_S
@@ -56,7 +56,7 @@ Hamming=Hamming
 その他=Misc
 
 [Tips.ボックスリサイズσ@Resize_S]
-effect.name=Applies zoom filter to fit a rectangle of the specified size.
+effect.name=Applies zooming filter to fit a rectangle of the specified size.
 背景サイズ=Fits to the screen size, ignoring the settings of width and height.
 水平揃え=Valid only when "Margin/Clipping" is turned on. Adjusts the size of margin/clipping.
 垂直揃え=Valid only when "Margin/Clipping" is turned on. Adjusts the size of margin/clipping.
