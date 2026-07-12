@@ -57,6 +57,10 @@ Currently this repository contains files for the following languages. Note that 
 
 ##  Update History
 
+- **r39** (2026-07-12)
+
+  - \[English\] Updated translation for [Resize_S](https://github.com/sigma-axis/aviutl2_script_Resize_S) to follow up v1.30.
+
 - **r38** (2026-07-06)
 
   - \[English\] Updated translation for [TL Walkaround 2](https://github.com/sigma-axis/aviutl2_tl_walkaround2) to follow up v1.70.

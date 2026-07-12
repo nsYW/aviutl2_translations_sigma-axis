@@ -23,8 +23,12 @@ Hamming=汉明滤波
 中心の位置を変更=中心点同步变化
 その他=其他
 
+;[Tips.リサイズσ@Resize_S]
+;effect.name=Zoom filter that allows to select scaling methods.
+
 [ボックスリサイズσ@Resize_S]
 ボックスリサイズσ@Resize_S=方框尺寸调整σ@Resize_S
+背景サイズ=画面尺寸
 モード=模式
 内接最大=最大内接
 外接最小=最大外接
@@ -49,3 +53,10 @@ Hamming=汉明滤波
 中心の位置を変更=中心点同步变化
 余白/クリッピング=余白/裁剪
 その他=其他
+
+;[Tips.ボックスリサイズσ@Resize_S]
+;effect.name=Applies zoom filter to fit a rectangle of the specified size.
+;背景サイズ=Fits to the screen size, ignoring the settings of width and height.
+;水平揃え=Valid only when "Margin/Clipping" is turned on. Adjusts the size of margin/clipping.
+;垂直揃え=Valid only when "Margin/Clipping" is turned on. Adjusts the size of margin/clipping.
+;余白/クリッピング=When the aspect ratios do not match, leaves extra margin or clips out-of-bound part.
