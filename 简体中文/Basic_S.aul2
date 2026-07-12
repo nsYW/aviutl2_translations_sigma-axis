@@ -808,6 +808,12 @@ N次式@Basic_S=N次方@Basic_S
 周期ずれ%=周期偏移(%)
 デューティ比%=负载循环(%)
 
+[コマ落ち反復(回数)@Basic_S]
+;コマ落ち反復(回数)@Basic_S=Repeat Discrete (Count)@Basic_S
+;周期(回数)=Period (回数)
+周期ずれ%=周期偏移(%)
+デューティ比%=负载循环(%)
+
 [コマ落ちランダム(秒)@Basic_S]
 コマ落ちランダム(秒)@Basic_S=丢帧随机(秒)@Basic_S
 周期ずれ%=周期偏移(%)
@@ -836,6 +842,12 @@ N次式@Basic_S=N次方@Basic_S
 周期ずれ%=周期偏移(%)
 乱数シード=随机种子
 
+[コマ落ちランダム(回数)@Basic_S]
+;コマ落ちランダム(回数)@Basic_S=Random Discrete (Count)@Basic_S
+;周期(回数)=Period (回数)
+周期ずれ%=周期偏移(%)
+乱数シード=随机种子
+
 [時間制御繰り返し(秒)@Basic_S]
 時間制御繰り返し(秒)@Basic_S=重复时间控制(秒)@Basic_S
 周期ずれ%=周期偏移(%)
@@ -859,6 +871,11 @@ N次式@Basic_S=N次方@Basic_S
 グリッド1拍のN分音符=网格每拍的N分音符
 周期ずれ%=周期偏移(%)
 
+[時間制御繰り返し(回数)@Basic_S]
+;時間制御繰り返し(回数)@Basic_S=Repeat Time Control (Count)@Basic_S
+;周期(回数)=Period (回数)
+周期ずれ%=周期偏移(%)
+
 [時間制御繰り返し往復(秒)@Basic_S]
 時間制御繰り返し往復(秒)@Basic_S=重复往返时间控制(Second)@Basic_S
 周期ずれ%=周期偏移(%)
@@ -880,6 +897,11 @@ N次式@Basic_S=N次方@Basic_S
 時間制御繰り返し往復(BPMグリッド)@Basic_S=重复往返时间控制(BPM网格)@Basic_S
 基準のN分音符(0:小節)=基准N分音符(0:小节)
 グリッド1拍のN分音符=网格每拍的N分音符
+周期ずれ%=周期偏移(%)
+
+[時間制御繰り返し往復(回数)@Basic_S]
+;時間制御繰り返し往復(回数)@Basic_S=Repeat Back Forth Time Control (Count)@Basic_S
+;周期(回数)=Period (回数)
 周期ずれ%=周期偏移(%)
 
 [対数補間@Basic_S]

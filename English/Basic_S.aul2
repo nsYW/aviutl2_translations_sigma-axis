@@ -1,6 +1,6 @@
 ;===============================================================
 ; Target: Basic_S (https://github.com/sigma-axis/aviutl2_script_Basic_S)
-; Target Version: v2.40 (for beta52)
+; Target Version: v2.60
 ; Language: English
 ; Translator(s):
 ;   sigma-axis (https://github.com/sigma-axis)
@@ -905,6 +905,12 @@ N次式@Basic_S=Power Ease@Basic_S
 周期ずれ%=Initial Phase (%)
 デューティ比%=Duty Cycle (%)
 
+[コマ落ち反復(回数)@Basic_S]
+コマ落ち反復(回数)@Basic_S=Repeat Discrete (Count)@Basic_S
+周期(回数)=Period (回数)
+周期ずれ%=Initial Phase (%)
+デューティ比%=Duty Cycle (%)
+
 [コマ落ちランダム(秒)@Basic_S]
 コマ落ちランダム(秒)@Basic_S=Random Discrete (Second)@Basic_S
 周期(秒)=Period (Second)
@@ -937,6 +943,12 @@ N次式@Basic_S=Power Ease@Basic_S
 周期ずれ%=Initial Phase (%)
 乱数シード=Random Seed
 
+[コマ落ちランダム(回数)@Basic_S]
+コマ落ちランダム(回数)@Basic_S=Random Discrete (Count)@Basic_S
+周期(回数)=Period (回数)
+周期ずれ%=Initial Phase (%)
+乱数シード=Random Seed
+
 [時間制御繰り返し(秒)@Basic_S]
 時間制御繰り返し(秒)@Basic_S=Repeat Time Control (Second)@Basic_S
 周期(秒)=Period (Second)
@@ -964,6 +976,11 @@ N次式@Basic_S=Power Ease@Basic_S
 グリッド1拍のN分音符=N-th Note for Beat of Grid
 周期ずれ%=Initial Phase (%)
 
+[時間制御繰り返し(回数)@Basic_S]
+時間制御繰り返し(回数)@Basic_S=Repeat Time Control (Count)@Basic_S
+周期(回数)=Period (回数)
+周期ずれ%=Initial Phase (%)
+
 [時間制御繰り返し往復(秒)@Basic_S]
 時間制御繰り返し往復(秒)@Basic_S=Repeat Back Forth Time Control (Second)@Basic_S
 周期(秒)=Period (Second)
@@ -989,6 +1006,11 @@ N次式@Basic_S=Power Ease@Basic_S
 周期(音符数)=Period (Note Length)
 基準のN分音符(0:小節)=N-th Note for Period (0: Measure)
 グリッド1拍のN分音符=N-th Note for Beat of Grid
+周期ずれ%=Initial Phase (%)
+
+[時間制御繰り返し往復(回数)@Basic_S]
+時間制御繰り返し往復(回数)@Basic_S=Repeat Back Forth Time Control (Count)@Basic_S
+周期(回数)=Period (回数)
 周期ずれ%=Initial Phase (%)
 
 [対数補間@Basic_S]
