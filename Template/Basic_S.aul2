@@ -36,6 +36,12 @@
 ライン幅=Line Width
 内側透明度=Inner Transparency
 
+[Tips.四隅丸め@Basic_S]
+effect.name=Rounds four corners of objects with shapes such as circles.
+縦横比=Positive: vertically long / Negative: horizontally long
+縦横比固定=On adjusting Radius when size of object is too small, fixes Aspect Ratio.
+内側透明度=Inner transparency when Line Width is small enough
+
 [背景角丸矩形@Basic_S]
 背景角丸矩形@Basic_S=Back Round Rect@Basic_S
 余白X=Padding X
@@ -82,6 +88,15 @@
 丸角縦横比固定=Fixed Aspect
 その他=Misc
 
+[Tips.背景角丸矩形@Basic_S]
+effect.name=Places a round rectangle to background.
+クリッピング=How the part out of the background figure is displayed
+背景色=Inner color when Line Width is small enough
+背景パターン画像=Pattern image when Line Width is small enough
+背景透明度=Inner transparency when Line Width is small enough
+縦横比=Positive: vertically long / Negative: horizontally long
+丸角縦横比固定=On adjusting Radius when size of object is too small, fixes Aspect Ratio.
+
 [背景楕円@Basic_S]
 背景楕円@Basic_S=Back Ellipse@Basic_S
 余白X=Padding X
@@ -108,6 +123,15 @@
 移動X=Move X
 移動Y=Move Y
 その他=Misc
+
+[Tips.背景楕円@Basic_S]
+effect.name=Places an ellipse to background.
+クリッピング=How the part out of the background figure is displayed
+包含=Adjusts the base size so the original object is contained in the background figure.
+真円=Forces Height match Width. Height is ignored.
+背景色=Inner color when Line Width is small enough
+背景パターン画像=Pattern image when Line Width is small enough
+背景透明度=Inner transparency when Line Width is small enough
 
 [背景菱形@Basic_S]
 背景菱形@Basic_S=Back Rhombus@Basic_S
@@ -136,16 +160,33 @@
 移動Y=Move Y
 その他=Misc
 
+[Tips.背景菱形@Basic_S]
+effect.name=Places a rhombus to background.
+クリッピング=How the part out of the background figure is displayed
+包含=Adjusts the base size so the original object is contained in the background figure.
+正方形=Forces Height match Width. Height is ignored.
+背景色=Inner color when Line Width is small enough
+背景パターン画像=Pattern image when Line Width is small enough
+背景透明度=Inner transparency when Line Width is small enough
+
 [透明度適用@Basic_S]
 透明度適用@Basic_S=Apply Transparency@Basic_S
 透明度=Transparency
 累積分も適用=Former Filters Too
+
+[Tips.透明度適用@Basic_S]
+effect.name=Makes each pixel semi-transparent by the specified amount. Also affects filters other than the output.
 
 [透明度二値化@Basic_S]
 透明度二値化@Basic_S=Binarize Transparency
 基準透明度=Threshold
 ぼかし幅=Buffer
 その他=Misc
+
+[Tips.透明度二値化@Basic_S]
+effect.name=Binarizes transparency. Useful for clarifying blur boundaries.
+基準透明度=Pixels more transparent than this threshold become completely transparent.
+ぼかし幅=Pixels less transparent than the threshold plus the buffer width become completely opaque.
 
 [色調補正@Basic_S]
 色調補正@Basic_S=Color Correction@Basic_S
@@ -162,6 +203,15 @@ HSV(円錐)=HSV(Conic)
 HSL(円柱)=HSL(Cylindrical)
 HSL(双円錐)=HSL(Biconic)
 その他=Misc
+
+[Tips.色調補正@Basic_S]
+effect.name=Color correction that can select color spaces.
+明るさ=Adds a constant to luminance.
+コントラスト=Multiplies luminance and chrominance. Gray is the origin.
+輝度=Multiplies luminance. Black is the origin.
+彩度=Multiplies chrominance. Achromatic is the origin.
+飽和する=Clamps color components within 0% to 100% (if necessary).
+色空間=* XYZ(sRGB) is not recommended due to its strong uniqueness.
 
 [色チャンネル入れ替え@Basic_S]
 色チャンネル入れ替え@Basic_S=Swap Color Channels@Basic_S
@@ -182,6 +232,9 @@ HSL(双円錐)=HSL(Biconic)
 その他=Misc
 乗算済みα=Premultiplied Alpha
 
+[Tips.色チャンネル入れ替え@Basic_S]
+effect.name=Swaps color channels of each pixel. You can also invert each channel or replace it with a constant value.
+
 [色オーバーフロー修正@Basic_S]
 色オーバーフロー修正@Basic_S=Color Overflow Correction@Basic_S
 色成分=Color Channels
@@ -195,12 +248,21 @@ HSL(双円錐)=HSL(Biconic)
 最大保証+超過分縮小=Maximize+Rescale Excess
 その他=Misc
 
+[Tips.色オーバーフロー修正@Basic_S]
+effect.name=Color correction that clamps color components within 0% to 100% if necessary.
+
 [回転中心@Basic_S]
 回転中心@Basic_S=Rotation Center@Basic_S
+
+[Tips.回転中心@Basic_S]
+effect.name=Moves the rotation center of the object.
 
 [回転中心アンカー指定@Basic_S]
 回転中心アンカー指定@Basic_S=Rotation Center by Anchor@Basic_S
 その他=Misc
+
+[Tips.回転中心アンカー指定@Basic_S]
+effect.name=Moves the rotation center of the object by manipulating an anchor with mouse. The changed center will only affect subsequent filter effects.
 
 [上下左右揃え@Basic_S]
 上下左右揃え@Basic_S=Align Four Sides@Basic_S
@@ -210,6 +272,12 @@ HSL(双円錐)=HSL(Biconic)
 縦横無効化=Disable
 左右有効=Enable Horizontal
 上下有効=Enable Vertical
+
+[Tips.上下左右揃え@Basic_S]
+effect.name=Aligns the rotation center of the object to the edges or center of the four sides.
+左右%=-100: Left / 0: Center / +100: Right
+上下%=-100: Top / 0: Center / +100: Bottom
+描画位置を固定=Moves the drawing coordinates as well.
 
 [直角回転@Basic_S]
 直角回転@Basic_S=Rotate by Right Angles@Basic_S
@@ -224,6 +292,9 @@ HSL(双円錐)=HSL(Biconic)
 左上軸反転=Flip Along Up Left Axis
 中心の位置を変更=Change Center Position
 
+[Tips.直角回転@Basic_S]
+effect.name=Rotates the image by 90° increments. You can also flip it vertically or horizontally, or flip along diagonal axes.
+
 [XYZ追加回転@Basic_S]
 XYZ追加回転@Basic_S=Append Rotation XYZ@Basic_S
 回転量=Rotation Multiplier
@@ -231,6 +302,11 @@ XYZ追加回転@Basic_S=Append Rotation XYZ@Basic_S
 描画する=Rasterize
 グループ制御=Under Group Control
 その他=Misc
+
+[Tips.XYZ追加回転@Basic_S]
+effect.name=Rotates around the screen-based X, Y, and Z axes, which are independent of the current orientation of the object.
+描画する=Projects the rotation result into an image.
+グループ制御=Only effective when "Rasterize" is turned on. Adjusts the camera position to fit with group control.
 
 [任意軸追加回転@Basic_S]
 任意軸追加回転@Basic_S=Append Rotation Any Axis@Basic_S
@@ -243,6 +319,11 @@ XYZ追加回転@Basic_S=Append Rotation XYZ@Basic_S
 グループ制御=Under Group Control
 その他=Misc
 
+[Tips.任意軸追加回転@Basic_S]
+effect.name=Rotates the object around an axis along the line specified by an anchor.
+描画する=Projects the rotation result into an image.
+グループ制御=Only effective when "Rasterize" is turned on. Adjusts the camera position to fit with group control.
+
 [傾斜@Basic_S]
 傾斜@Basic_S=Skew@Basic_S
 角度=Angle
@@ -254,6 +335,11 @@ XYZ追加回転@Basic_S=Append Rotation XYZ@Basic_S
 基準軸Y2=Baseline Y2
 その他=Misc
 互換対応(将来削除予定)=Legacy (Removed in Future)
+
+[Tips.傾斜@Basic_S]
+effect.name=Skews the object along the axis specified by an anchor.
+角度=The tan value is added to "Slope %" before applying.
+傾き%=The tan value of "Angle" is added before applying.
 
 [XY軸変形@Basic_S]
 XY軸変形@Basic_S=Deform XY-axis@Basic_S
@@ -268,6 +354,11 @@ Y長さ変更=Stretch Along Y
 その他=Misc
 互換対応(将来削除予定)=Legacy (Removed in Future)
 
+[Tips.XY軸変形@Basic_S]
+effect.name=Deforms by manipulating anchors placed along X and Y axes.
+X長さ変更=Stretches along X-axis.
+Y長さ変更=Stretches along Y-axis.
+
 [領域サイズ変更@Basic_S]
 領域サイズ変更@Basic_S=Adjust Area@Basic_S
 上=Top
@@ -278,6 +369,9 @@ Y長さ変更=Stretch Along Y
 塗りつぶし=Fill
 その他=Misc
 
+[Tips.領域サイズ変更@Basic_S]
+effect.name=Composite filter of "Expand Area" and "Clipping". Positive values expand the area, and negative values clip it.
+
 [領域割合サイズ変更@Basic_S]
 領域割合サイズ変更@Basic_S=Adjust Area by Rate@Basic_S
 上%=Top %
@@ -287,6 +381,9 @@ Y長さ変更=Stretch Along Y
 中心の位置を変更=Change Center Position
 塗りつぶし=Fill
 その他=Misc
+
+[Tips.領域割合サイズ変更@Basic_S]
+effect.name=Expands or clips the area, specified with the ratio of the current size of the object.
 
 [領域サイズ指定@Basic_S]
 領域サイズ指定@Basic_S=Set Area@Basic_S
@@ -302,6 +399,13 @@ Y長さ変更=Stretch Along Y
 高さ指定有効=Enable Height
 その他=Misc
 反転マスク=Invert as Mask
+
+[Tips.領域サイズ指定@Basic_S]
+effect.name=Expands or clips the area to result in the specified size.
+幅=Expands or clips the area around "X" and aligned by "Horizontal Alignment".
+高さ=Expands or clips the area around "Y" and aligned by "Vertical Alignment".
+水平揃え=-100: Right / 0: Center / +100: Left
+垂直揃え=-100: Bottom / 0: Center / +100: Top
 
 [カットずらし@Basic_S]
 カットずらし@Basic_S=Cut Move@Basic_S
@@ -324,6 +428,12 @@ Y長さ変更=Stretch Along Y
 その他=Misc
 互換対応(将来削除予定)=Legacy (Removed in Future)
 
+[Tips.カットずらし@Basic_S]
+effect.name=Cuts the object along a line specified by an anchor, and moves to a different place.
+切り取り幅=Adjusts the range of the process "Blank/Overlap".
+余白処理=Specifies how to fill the blank areas created by moving.
+重複処理=Specifies how to fill the overlapping areas created by moving.
+
 [中抜きクリッピング@Basic_S]
 中抜きクリッピング@Basic_S=Mid-Range Clipping@Basic_S
 幅=Width
@@ -342,6 +452,13 @@ Y長さ変更=Stretch Along Y
 引き伸ばし=Stretch
 重複処理=Overlap
 その他=Misc
+
+[Tips.中抜きクリッピング@Basic_S]
+effect.name=Applies clipping to, not the edge, but the middle of the object.
+幅=Expands or clips the area around "X" and aligned by "Horizontal Alignment".
+高さ=Expands or clips the area around "Y" and aligned by "Vertical Alignment".
+水平揃え=-100: Right / 0: Center / +100: Left
+垂直揃え=-100: Bottom / 0: Center / +100: Top
 
 [画像中間ループ@Basic_S]
 画像中間ループ@Basic_S=Mid-Range Loop@Basic_S
@@ -382,6 +499,15 @@ Y長さ変更=Stretch Along Y
 引き伸ばし=Stretch
 その他=Misc
 
+[Tips.画像中間ループ@Basic_S]
+effect.name=Applies image loop to the inner part of the object, the inside of the specified margin.
+幅=Unit differs based on "Width Unit".
+高さ=Unit differs based on "Height Unit".
+水平揃え=-100: Right / 0: Center / +100: Left
+垂直揃え=-100: Bottom / 0: Center / +100: Top
+ループ水平揃え=-100: Right / 0: Center / +100: Left
+ループ垂直揃え=-100: Bottom / 0: Center / +100: Top
+
 [小数ぼかし@Basic_S]
 小数ぼかし@Basic_S=Fraction Blur@Basic_S
 範囲=Range
@@ -393,6 +519,10 @@ Y長さ変更=Stretch Along Y
 三角分布=Triangular
 ガウス分布=Gaussian
 その他=Misc
+
+[Tips.小数ぼかし@Basic_S]
+effect.name=Blur filter that can apply a fractional blur radius.
+縦横比=Positive: Horizontally long / Negative: Vertically long
 
 [縁取りα@Basic_S]
 縁取りα@Basic_S=Border Alpha@Basic_S
@@ -421,6 +551,10 @@ Y長さ変更=Stretch Along Y
 画像Y=Image Y
 その他=Misc
 
+[Tips.四角縁取り@Basic_S]
+effect.name=Border with square corners.
+縦横比=Positive: Vertically long / Negative: Horizontally long
+
 [内側シャドウ@Basic_S]
 内側シャドウ@Basic_S=Inner Shadow@Basic_S
 濃さ=Density
@@ -444,6 +578,9 @@ Y長さ変更=Stretch Along Y
 画像X=Image X
 画像Y=Image Y
 その他=Misc
+
+[Tips.内側シャドウ@Basic_S]
+effect.name=Draws a shadow of the outer boundary to the object itself.
 
 [画像ファイル合成@Basic_S]
 画像ファイル合成@Basic_S=Image File Composition@Basic_S
@@ -490,6 +627,10 @@ Y長さ変更=Stretch Along Y
 スクリプト実行=Run Script
 追加スクリプト=Script
 その他=Misc
+
+[Tips.画像ファイル合成@Basic_S]
+effect.name=The current object is composited with an image file in various ways. Video files cannot be loaded.
+追加のフィルタ効果=Before compositing, filter effects can be applied to the loaded image.
 
 [動画ファイル合成@Basic_S]
 動画ファイル合成@Basic_S=Video File Composition@Basic_S
@@ -540,6 +681,11 @@ Y長さ変更=Stretch Along Y
 スクリプト実行=Run Script
 追加スクリプト=Script
 その他=Misc
+
+[Tips.動画ファイル合成@Basic_S]
+effect.name=The current object is composited with a video file in various ways. Image files cannot be loaded.
+再生速度=The playback position is calculated using the simple formula: elapsed time × playback speed.\nSo changing the playback speed during playback may cause jumps.
+追加のフィルタ効果=Before compositing, filter effects can be applied to the loaded image.
 
 [テキスト合成@Basic_S]
 テキスト合成@Basic_S=Text Composition@Basic_S
@@ -625,6 +771,10 @@ Y長さ変更=Stretch Along Y
 追加スクリプト=Script
 その他=Misc
 
+[Tips.テキスト合成@Basic_S]
+effect.name=The current object is composited with text in various ways, such as overlaying text on the object.
+追加のフィルタ効果=Before compositing, filter effects can be applied to the loaded image.
+
 [画像バッファ合成@Basic_S]
 画像バッファ合成@Basic_S=Image Buffer Composition@Basic_S
 バッファ=Buffer
@@ -676,6 +826,11 @@ Y長さ変更=Stretch Along Y
 追加スクリプト=Script
 その他=Misc
 
+[Tips.画像バッファ合成@Basic_S]
+effect.name=The current object is composited with internal buffers such as current object, "Temporal Buffer" or "Temporal Cache" in various ways.
+キャッシュ名=The part "---" of the cache name "cache:---". Valid only for "Temporal Cache".
+追加のフィルタ効果=Before compositing, filter effects can be applied to the loaded image.
+
 [別レイヤー同期@Basic_S]
 別レイヤー同期@Basic_S=Synchronize Layer@Basic_S
 レイヤー位置=Layer Position
@@ -700,6 +855,9 @@ Z同期%=Z-Pos Sync %
 透明度同期%=Transparency Sync %
 その他=Misc
 
+[Tips.別レイヤー同期@Basic_S]
+effect.name=The current object synchronizes its position, rotation, zoom, and transparency with another layer.
+
 [バッファをコピー@Basic_S]
 バッファをコピー@Basic_S=Copy Buffers@Basic_S
 コピー元=Source
@@ -712,6 +870,11 @@ Z同期%=Z-Pos Sync %
 描画しない=Suppress Drawing
 その他=Misc
 
+[Tips.バッファをコピー@Basic_S]
+effect.name=Performs a copy operation between internal buffers, such as the current object, "Temporal Buffer", or "Temporal Cache".
+コピー先=When copying to the frame buffer, the source must match the scene size.
+キャッシュ名=The part "---" of the cache name "cache:---". Valid only for "Temporal Cache".
+
 [バッファをクリア@Basic_S]
 バッファをクリア@Basic_S=Clear Buffers@Basic_S
 バッファ=Buffer
@@ -722,6 +885,10 @@ Z同期%=Z-Pos Sync %
 キャッシュ名=Cache Name
 色=Color
 その他=Misc
+
+[Tips.バッファをクリア@Basic_S]
+effect.name=Clears internal buffers such as the current object or "Temporal Buffer" or "Temporal Cache", and replaced with fully transparent pixels or a single color.
+キャッシュ名=The part "---" of the cache name "cache:---". Valid only for "Temporal Cache".
 
 ;===============================
 ; Objects (.obj2)
@@ -760,6 +927,15 @@ Z同期%=Z-Pos Sync %
 丸角縦横比固定=Fixed Aspect
 その他=Misc
 
+[Tips.角丸矩形@Basic_S]
+effect.name=Generates rectangles and round-cornered squares. The width and height can be specified in pixels, and alignment can be set for top, bottom, left, and right.
+背景色=The internal color when the line width is small
+背景透明度=The transparency of the internal area when the line width is small
+水平揃え=-100: Right / 0: Center / +100: Left
+垂直揃え=-100: Bottom / 0: Center / +100: Top
+丸角縦横比=Positive: Vertically long / Negative: Horizontally long
+丸角縦横比固定=When adjusting the the corner radius if the size is small compared to the radius, this fixes the aspect ratio of the rounded corners.
+
 [楕円@Basic_S]
 楕円@Basic_S=Ellipse@Basic_S
 幅=Width
@@ -774,6 +950,14 @@ Z同期%=Z-Pos Sync %
 垂直揃え=Vertical Alignment
 その他=Misc
 
+[Tips.楕円@Basic_S]
+effect.name=Generates ellipses with width and height specified in pixels, and allows alignment settings for top, bottom, left, and right.
+背景色=The internal color when the line width is small
+背景透明度=The transparency of the internal area when the line width is small
+真円=Aligns "Width" and "Height". "Height" will be ignored.
+水平揃え=-100: Right / 0: Center / +100: Left
+垂直揃え=-100: Bottom / 0: Center / +100: Top
+
 [菱形@Basic_S]
 菱形@Basic_S=Rhombus@Basic_S
 幅=Width
@@ -787,6 +971,14 @@ Z同期%=Z-Pos Sync %
 水平揃え=Horizontal Alignment
 垂直揃え=Vertical Alignment
 その他=Misc
+
+[Tips.菱形@Basic_S]
+effect.name=Generates rhombuses with width and height specified in pixels, and allows alignment settings for top, bottom, left, and right.
+背景色=The internal color when the line width is small
+背景透明度=The transparency of the internal area when the line width is small
+正方形=Aligns "Width" and "Height". "Height" will be ignored.
+水平揃え=-100: Right / 0: Center / +100: Left
+垂直揃え=-100: Bottom / 0: Center / +100: Top
 
 [スーパー楕円@Basic_S]
 スーパー楕円@Basic_S=Superellipse@Basic_S
@@ -803,6 +995,14 @@ Z同期%=Z-Pos Sync %
 垂直揃え=Vertical Alignment
 その他=Misc
 
+[Tips.スーパー楕円@Basic_S]
+effect.name=Generates superellipses, including astroids and rhombuses as special cases.
+背景色=The internal color when the line width is small
+背景透明度=The transparency of the internal area when the line width is small
+縦横一致=Aligns "Width" and "Height". "Height" will be ignored.
+水平揃え=-100: Right / 0: Center / +100: Left
+垂直揃え=-100: Bottom / 0: Center / +100: Top
+
 [別レイヤー@Basic_S]
 別レイヤー@Basic_S=Another Layer@Basic_S
 レイヤー位置=Layer Position
@@ -816,6 +1016,9 @@ Z同期%=Z-Pos Sync %
 透明度の復元=Restore Transparency
 その他=Misc
 
+[Tips.別レイヤー@Basic_S]
+effect.name=Loads the same image as another layer. Some information such as coordinates and zoom level can be restored to a certain extent.
+
 [バッファ読み込み@Basic_S]
 バッファ読み込み@Basic_S=Load Buffer@Basic_S
 バッファ=Buffer
@@ -825,6 +1028,10 @@ Z同期%=Z-Pos Sync %
 直前オブジェクト=Above Object
 キャッシュ名=Cache Name
 その他=Misc
+
+[Tips.バッファ読み込み@Basic_S]
+effect.name=Loads a specified buffer, such as "Temporal Buffer", whcih is used for "Temporal Buffer Output" or temporary drawing target for various scripts, or "Temporal Cache" which is used for temporary storage.
+キャッシュ名=The part "---" of the cache name "cache:---". Valid only for "Temporal Cache".
 
 ;===============================
 ; Easings (.tra2)
