@@ -36,6 +36,15 @@
 その他=其他
 アンチエイリアス=抗锯齿
 
+;[Tips.四角タイルσ@Tile_S]
+;effect.name=Pattern of arranged rectangles. Can be colored in four colors.
+;背景サイズ=Fits to the screen size, ignoring the settings of width and height.
+;タイル種類=Reduces the number of tile types to make the pattern simple.
+;マス正方形(幅のみで指定)=Ignores "Tile Height" to make tiles square.
+;ライン幅=Reducing this exposes "Inner Colors".
+;余白幅=Spacing between tiles (horizontal)
+;余白高さ=Spacing between tiles (vertical)
+
 [三角タイルσ@Tile_S]
 三角タイルσ@Tile_S=三角形瓦片σ@Tile_S
 幅=宽度
@@ -69,6 +78,13 @@
 その他=其他
 アンチエイリアス=抗锯齿
 
+;[Tips.三角タイルσ@Tile_S]
+;effect.name=Pattern of arranged equilateral triangles. Can be colored in six colors.
+;背景サイズ=Fits to the screen size, ignoring the settings of width and height.
+;タイル種類=Reduces the number of tile types to make the pattern simple.
+;ライン幅=Reducing this exposes "Inner Colors".
+;余白幅=Spacing between tiles
+
 [六角タイルσ@Tile_S]
 六角タイルσ@Tile_S=六边形瓦片σ@Tile_S
 幅=宽度
@@ -93,6 +109,13 @@
 回転=旋转
 その他=其他
 アンチエイリアス=抗锯齿
+
+;[Tips.六角タイルσ@Tile_S]
+;effect.name=Pattern of arranged regular hexagons. Can be colored in three colors.
+;背景サイズ=Fits to the screen size, ignoring the settings of width and height.
+;タイル種類=Reduces the number of tile types to make the pattern simple.
+;ライン幅=Reducing this exposes "Inner Colors".
+;余白幅=Spacing between tiles
 
 [菱形タイルσ@Tile_S]
 菱形タイルσ@Tile_S=菱形瓦片σ@Tile_S
@@ -122,3 +145,10 @@
 回転=旋转
 その他=其他
 アンチエイリアス=抗锯齿
+
+;[Tips.菱形タイルσ@Tile_S]
+;effect.name=Pattern of arranged rhombuses. Can be colored in four colors.
+;背景サイズ=Fits to the screen size, ignoring the settings of width and height.
+;タイル種類=Reduces the number of tile types to make the pattern simple.
+;ライン幅=Reducing this exposes "Inner Colors".
+;余白幅=Spacing between tiles

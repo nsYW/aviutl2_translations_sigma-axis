@@ -55,11 +55,17 @@ Currently this repository contains files for the following languages. Note that 
 
 1.  Select the language in the language setting menu.
 
+##  Upcoming Update
+
+- **r43** (2026-??-??)
+
+  - \[English\] Updated translation for [Tile_S](https://github.com/sigma-axis/aviutl2_script_Tile_S) to follow up v1.30.
+
 ##  Update History
 
 - **r42** (2026-07-14)
 
-  - \[English\] Updated translation for [Basic_S](https://github.com/sigma-axis/aviutl2_script_Basic_S) to follow up v 2.60, including tooltips.
+  - \[English\] Updated translation for [Basic_S](https://github.com/sigma-axis/aviutl2_script_Basic_S) to follow up v2.60, including tooltips.
 
   - \[English\] Updated translation for [GroundShadow2_S](https://github.com/sigma-axis/aviutl2_script_GroundShadow2_S) to follow up v1.31.
 

@@ -1,6 +1,6 @@
 ;===============================================================
 ; Target: Tile_S (https://github.com/sigma-axis/aviutl2_script_Tile_S)
-; Target Version: v1.20 (for beta51)
+; Target Version: v1.30
 ; Language: English
 ; Translator(s):
 ;   sigma-axis (https://github.com/sigma-axis)
@@ -41,6 +41,15 @@
 回転=Rotate
 その他=Misc
 アンチエイリアス=Antialias
+
+[Tips.四角タイルσ@Tile_S]
+effect.name=Pattern of arranged rectangles. Can be colored in four colors.
+背景サイズ=Fits to the screen size, ignoring the settings of width and height.
+タイル種類=Reduces the number of tile types to make the pattern simple.
+マス正方形(幅のみで指定)=Ignores "Tile Height" to make tiles square.
+ライン幅=Reducing this exposes "Inner Colors".
+余白幅=Spacing between tiles (horizontal)
+余白高さ=Spacing between tiles (vertical)
 
 [三角タイルσ@Tile_S]
 三角タイルσ@Tile_S=Triangle Tile S@Tile_S
@@ -83,6 +92,13 @@
 その他=Misc
 アンチエイリアス=Antialias
 
+[Tips.三角タイルσ@Tile_S]
+effect.name=Pattern of arranged equilateral triangles. Can be colored in six colors.
+背景サイズ=Fits to the screen size, ignoring the settings of width and height.
+タイル種類=Reduces the number of tile types to make the pattern simple.
+ライン幅=Reducing this exposes "Inner Colors".
+余白幅=Spacing between tiles
+
 [六角タイルσ@Tile_S]
 六角タイルσ@Tile_S=Hexagon Tile S@Tile_S
 幅=Width
@@ -112,6 +128,13 @@
 回転=Rotate
 その他=Misc
 アンチエイリアス=Antialias
+
+[Tips.六角タイルσ@Tile_S]
+effect.name=Pattern of arranged regular hexagons. Can be colored in three colors.
+背景サイズ=Fits to the screen size, ignoring the settings of width and height.
+タイル種類=Reduces the number of tile types to make the pattern simple.
+ライン幅=Reducing this exposes "Inner Colors".
+余白幅=Spacing between tiles
 
 [菱形タイルσ@Tile_S]
 菱形タイルσ@Tile_S=Rhombus Tile S@Tile_S
@@ -147,3 +170,10 @@
 回転=Rotate
 その他=Misc
 アンチエイリアス=Antialias
+
+[Tips.菱形タイルσ@Tile_S]
+effect.name=Pattern of arranged rhombuses. Can be colored in four colors.
+背景サイズ=Fits to the screen size, ignoring the settings of width and height.
+タイル種類=Reduces the number of tile types to make the pattern simple.
+ライン幅=Reducing this exposes "Inner Colors".
+余白幅=Spacing between tiles
