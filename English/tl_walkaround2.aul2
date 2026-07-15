@@ -1,6 +1,6 @@
 ;===============================================================
 ; Target: TL Walkaround 2 (https://github.com/sigma-axis/aviutl2_tl_walkaround2)
-; Target Version: v1.70 (for beta53a)
+; Target Version: v1.80
 ; Language: English
 ; Translator(s):
 ;   sigma-axis (https://github.com/sigma-axis)
@@ -87,6 +87,8 @@ BPM移動分母:=Move N-th BPM Grid:
 選択オブジェクトの終点を伸ばす=Extend the End of Selected Objects
 選択オブジェクトの始点を現在フレームに伸ばす=Extend the Start of Selected Objects to Cursor
 選択オブジェクトの終点を現在フレームに伸ばす=Extend the End of Selected Objects to Cursor
+
+オブジェクトを右へ複製=Duplicate Object to Right
 
 カーソル位置を元に戻す=Cursor Undo
 カーソル位置をやり直す=Cusror Redo
