@@ -45,7 +45,7 @@ Currently this repository contains files for the following languages. Note that 
 
   http://spring-fragrance.mints.ne.jp/aviutl
 
-  - Confirmed to work on: `2.1.0`
+  - Confirmed to work on: `2.1.1`
 
 ##  Installation
 
@@ -55,17 +55,15 @@ Currently this repository contains files for the following languages. Note that 
 
 1.  Select the language in the language setting menu.
 
-##  Upcoming Update
+##  Update History
 
-- **r43** (2026-??-??)
+- **r43** (2026-07-19)
 
   - \[English\] Updated translation for [Tile_S](https://github.com/sigma-axis/aviutl2_script_Tile_S) to follow up v1.30.
 
   - \[English\] Updated translation for [TL Walkaround 2](https://github.com/sigma-axis/aviutl2_tl_walkaround2) to follow up v1.90.
 
   - \[English\] Updated translation for [Path_S](https://github.com/sigma-axis/aviutl2_script_Path_S) to follow up v2.10.
-
-##  Update History
 
 - **r42** (2026-07-14)
 
