@@ -61,7 +61,9 @@ Currently this repository contains files for the following languages. Note that 
 
   - \[English\] Updated translation for [Tile_S](https://github.com/sigma-axis/aviutl2_script_Tile_S) to follow up v1.30.
 
-  - \[English\] Updated translation for [TL Walkaround 2](https://github.com/sigma-axis/aviutl2_tl_walkaround2) to follow up v1.80.
+  - \[English\] Updated translation for [TL Walkaround 2](https://github.com/sigma-axis/aviutl2_tl_walkaround2) to follow up v1.90.
+
+  - \[English\] Updated translation for [Path_S](https://github.com/sigma-axis/aviutl2_script_Path_S) to follow up v2.10.
 
 ##  Update History
 

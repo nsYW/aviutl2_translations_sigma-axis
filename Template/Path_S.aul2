@@ -1,6 +1,6 @@
 ;===============================================================
 ; Target: Path_S (https://github.com/sigma-axis/aviutl2_script_Path_S)
-; Target Version: v2.00 (for beta52)
+; Target Version: v2.10
 ; Language: <Language Name>
 ; Translator(s):
 ;   <Name1>
@@ -37,6 +37,11 @@
 アンカー切り替え=Toggle Anchors
 その他=Misc
 ぼかし幅=Edge Blur
+
+[Tips.パスマスクσ@Path_S]
+effect.name=Crops the image to the area enclosed by the path.
+曲線精度=Maximum sampling interval for polyline approximation, in pixels
+アンカー切り替え=Switches anchors between for path editing and for moving.
 
 [パスマスク(ライン)σ@Path_S]
 パスマスク(ライン)σ@Path_S=Path Mask S (Line)σ@Path_S
@@ -81,6 +86,15 @@
 その他=Misc
 ぼかし幅=Edge Blur
 
+[Tips.パスマスク(ライン)σ@Path_S]
+effect.name=Masks out the image along the line traced by the path.
+曲線精度=Maximum sampling interval for polyline approximation, in pixels
+開始位置=Start point of the line drawing range, in % of total path length
+終了位置=End point of the line drawing range, in % of total path length
+破線パターン=Write lengths of solid and blank segments alternately, in pixels
+破線周期補正=Effective only when "Loop" is turned on. Adjusts so the dash pattern completes an integer number of repeats per loop
+アンカー切り替え=Switches anchors between for path editing and for moving.
+
 [パス部分フィルタσ@Path_S]
 パス部分フィルタσ@Path_S=Path Partial Filter S@Path_S
 反転=Invert
@@ -114,6 +128,18 @@
 その他=Misc
 ぼかし幅=Edge Blur
 
+[Tips.パス部分フィルタσ@Path_S]
+effect.name=Applies subsequent filter effects or directly written scripts only to the area enclosed by the path.
+曲線精度=Maximum sampling interval for polyline approximation, in pixels
+追加のフィルタ効果=The range of "Subsequent Filters" can be delimited by "Path Partial Filter S Until This."
+アンカー切り替え=Switches anchors between for path editing and for moving.
+
+[パス部分フィルタσここまで@Path_S]
+パス部分フィルタσここまで@Path_S=Path Partial Filter S Until This@Path_S
+
+[Tips.パス部分フィルタσここまで@Path_S]
+effect.name=Limites the range of "Subsequent Filters" in "Path Partial Filter S".
+
 [パスに沿って配置σ@Path_S]
 パスに沿って配置σ@Path_S=Place Along Path S@Path_S
 位置=Position
@@ -137,6 +163,13 @@
 曲線精度=Curve Precision
 パスの表示=Display Path
 その他=Misc
+
+[Tips.パスに沿って配置σ@Path_S]
+effect.name=Places objects along the path. Can space out individual objects.\nThe relative coordinates between individual objects are reflected as is without following the path. Use "Zoom Coordinate(Individual)" to the scale 0 before this, so they will be placed them along the path.
+個別位置ズレ=Offset length between each individual object, in percentage of total path length
+範囲外=Specifies whether to display objects that do not lie between the start and end of the path.
+曲線精度=Maximum sampling interval for polyline approximation, in pixels
+パスの表示=Displays the path shape in the preview window. Automatically disabled during video export.
 
 ;===============================
 ; Objects (.obj2)
@@ -190,6 +223,18 @@
 その他=Misc
 ぼかし幅=Edge Blur
 
+[Tips.パス図形σ@Path_S]
+effect.name=Draws a line along the path and fills the area inside.
+曲線精度=Maximum sampling interval for polyline approximation, in pixels
+開始位置=Start point of the line drawing range, in % of total path length
+終了位置=End point of the line drawing range, in % of total path length
+破線パターン=Write lengths of solid and blank segments alternately, in pixels
+破線周期補正=Effective only when "Loop" is turned on. Adjusts so the dash pattern completes an integer number of repeats per loop
+ランダム周期=Period along the path direction of random variation, in pixels
+ランダム振幅=Magnitude of random variation, in pixels
+ランダム固定端=Excludes the path start and end from random variation.
+ランダムシード=If positive, the same seed yields different randomness for different objects.\nIf negative, the same seed yields identical randomness across objects.
+
 [ラインσ@Path_S]
 ラインσ@Path_S=Line S@Path_S
 始点X=Line Start X
@@ -234,6 +279,16 @@
 その他=Misc
 ぼかし幅=Edge Blur
 
+[Tips.ラインσ@Path_S]
+effect.name=Draws typical kinds of lines or curves, such as wavy lines and zigzag lines.
+開始位置=Start point of the line drawing range, in % of total path length
+終了位置=End point of the line drawing range, in % of total path length
+破線パターン=Write lengths of solid and blank segments alternately, in pixels
+ランダム周期=Period along the path direction of random variation, in pixels
+ランダム振幅=Magnitude of random variation, in pixels
+ランダム固定端=Excludes the path start and end from random variation.
+ランダムシード=If positive, the same seed yields different randomness for different objects.\nIf negative, the same seed yields identical randomness across objects.
+
 [スパイラルσ@Path_S]
 スパイラルσ@Path_S=Spiral S@Path_S
 始点X=Line Start X
@@ -270,6 +325,18 @@
 ランダムシード=Random Seed
 その他=Misc
 ぼかし幅=Edge Blur
+
+[Tips.スパイラルσ@Path_S]
+effect.name=Draws lines in a spiral shape.
+傾き=Positive for counter-clockwise outward / 0 for a half-line / Negative for clockwise outward
+開始位置=Start point of the line drawing range, in % of total path length
+終了位置=End point of the line drawing range, in % of total path length
+曲線精度=Maximum sampling interval for polyline approximation, in pixels
+破線パターン=Write lengths of solid and blank segments alternately, in pixels
+ランダム周期=Period along the path direction of random variation, in pixels
+ランダム振幅=Magnitude of random variation, in pixels
+ランダム固定端=Excludes the path start and end from random variation.
+ランダムシード=If positive, the same seed yields different randomness for different objects.\nIf negative, the same seed yields identical randomness across objects.
 
 [アローσ@Path_S]
 アローσ@Path_S=Arrow S@Path_S
@@ -322,6 +389,18 @@
 その他=Misc
 ぼかし幅=Edge Blur
 
+[Tips.アローσ@Path_S]
+effect.name=Draws a line along the path and places arrowhead shapes at the ends.
+曲線精度=Maximum sampling interval for polyline approximation, in pixels
+開始位置=Start point of the line drawing range, in % of total path length
+終了位置=End point of the line drawing range, in % of total path length
+破線パターン=Write lengths of solid and blank segments alternately, in pixels
+矢じり幅=Scaling rate of arrowhead width (percentage)
+ランダム周期=Period along the path direction of random variation, in pixels
+ランダム振幅=Magnitude of random variation, in pixels
+ランダム固定端=Excludes the path start and end from random variation.
+ランダムシード=If positive, the same seed yields different randomness for different objects.\nIf negative, the same seed yields identical randomness across objects.
+
 [スクウェアσ@Path_S]
 スクウェアσ@Path_S=Square S@Path_S
 幅=Width
@@ -367,6 +446,19 @@
 ランダムシード=Random Seed
 その他=Misc
 ぼかし幅=Edge Blur
+
+[Tips.スクウェアσ@Path_S]
+effect.name=Draws a rectangle with rounded corners.
+水平揃え=-100: Right / 0: Center / +100: Left
+垂直揃え=-100: Bottom / 0: Center / +100: Top
+丸角縦横比=Positive: Vertically long / Negative: Horizontally long
+丸角縦横比固定=When adjusting the the corner radius if the size is small compared to the radius, this fixes the aspect ratio of the rounded corners.
+開始位置=Start point of the line drawing range, in % of total path length
+終了位置=End point of the line drawing range, in % of total path length
+破線パターン=Write lengths of solid and blank segments alternately, in pixels
+ランダム周期=Period along the path direction of random variation, in pixels
+ランダム振幅=Magnitude of random variation, in pixels
+ランダムシード=If positive, the same seed yields different randomness for different objects.\nIf negative, the same seed yields identical randomness across objects.
 
 ;===============================
 ; Labels
