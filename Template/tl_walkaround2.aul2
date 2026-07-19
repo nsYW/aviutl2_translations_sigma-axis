@@ -1,6 +1,6 @@
 ;===============================================================
 ; Target: TL Walkaround 2 (https://github.com/sigma-axis/aviutl2_tl_walkaround2)
-; Target Version: v1.80
+; Target Version: v1.90
 ; Language: <Language Name>
 ; Translator(s):
 ;   <Name1>
@@ -65,6 +65,7 @@ BPM移動分母:=Move N-th BPM Grid:
 右のオブジェクトを選択=Select Object Right
 上のオブジェクトを選択=Select Object Up
 下のオブジェクトを選択=Select Object Down
+オブジェクトの選択を解除=Deselect Object
 上のレイヤーを選択=Select Layer Up
 下のレイヤーを選択=Select Layer Down
 
