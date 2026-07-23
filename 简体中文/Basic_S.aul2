@@ -564,8 +564,8 @@ Y長さ変更=更改Y长度
 その他=其他
 
 ;[Tips.画像ファイル合成@Basic_S]
-;effect.name=The current object is composited with an image file in various ways. Video files cannot be loaded.
-;追加のフィルタ効果=Before compositing, filter effects can be applied to the loaded image.
+;effect.name=Combines the current object with an image file in various ways. Video files cannot be loaded.
+;追加のフィルタ効果=Before composition, filter effects can be applied to the loaded image.
 
 [動画ファイル合成@Basic_S]
 動画ファイル合成@Basic_S=视频文件合成@Basic_S
@@ -614,9 +614,9 @@ Y長さ変更=更改Y长度
 その他=其他
 
 ;[Tips.動画ファイル合成@Basic_S]
-;effect.name=The current object is composited with a video file in various ways. Image files cannot be loaded.
+;effect.name=Combines the current object with a video file in various ways. Image files cannot be loaded.
 ;再生速度=The playback position is calculated using the simple formula: elapsed time × playback speed.\nSo changing the playback speed during playback may cause jumps.
-;追加のフィルタ効果=Before compositing, filter effects can be applied to the loaded image.
+;追加のフィルタ効果=Before composition, filter effects can be applied to the loaded image.
 
 [テキスト合成@Basic_S]
 テキスト合成@Basic_S=文本合成@Basic_S
@@ -697,8 +697,58 @@ Y長さ変更=更改Y长度
 その他=其他
 
 ;[Tips.テキスト合成@Basic_S]
-;effect.name=The current object is composited with text in various ways, such as overlaying text on the object.
-;追加のフィルタ効果=Before compositing, filter effects can be applied to the loaded image.
+;effect.name=Combines the current object with text in various ways, such as overlaying text on the object.
+;追加のフィルタ効果=Before composition, filter effects can be applied to the loaded image.
+
+[図形合成@Basic_S]
+;図形合成@Basic_S=Figure Composition@Basic_S
+;図形の種類=Figure Type
+サイズ=尺寸
+ライン幅=线宽
+色=颜色
+;角を丸くする=Rounded Corners
+描画=渲染
+拡大率=缩放率
+回転=旋转
+サイズ固定=固定尺寸
+配置=分布
+補間なし=无插值
+画像ループ=图像拼贴
+なし=无
+横=水平
+縦=垂直
+モード=模式
+前方から合成=从前方合成
+前方から合成(クリッピング)=从前方合成(裁剪)
+後方から合成=从后方合成
+後方から合成(クリッピング)=从后方合成(裁剪)
+アルファ値を乗算=乘以Alpha值
+色情報を上書き=覆盖颜色信息
+輝度をアルファ値として上書き=将亮度作为Alpha值覆盖
+輝度をアルファ値として乗算=将亮度作为Alpha值相乘
+合成モード=混合模式
+通常=正常
+加算=相加
+減算=相减
+乗算=相乘
+スクリーン=滤色
+オーバーレイ=覆盖
+比較(明)=对比(明)
+比較(暗)=对比(暗)
+輝度=亮度
+陰影=阴影
+差分=反差
+追加効果=追加效果
+追加のフィルタ効果=追加滤镜效果
+後続フィルタ=后续滤镜
+スクリプト実行=运行脚本
+追加スクリプト=追加脚本
+その他=其他
+
+;[Tips.図形合成@Basic_S]
+;effect.name=Combines the current object with figures or SVG files in various ways.
+;図形の種類=Click the button to select an SVG file.
+;追加のフィルタ効果=Before composition, filter effects can be applied to the loaded image.
 
 [画像バッファ合成@Basic_S]
 画像バッファ合成@Basic_S=图像缓存合成@Basic_S
@@ -748,9 +798,9 @@ Y長さ変更=更改Y长度
 その他=其他
 
 ;[Tips.画像バッファ合成@Basic_S]
-;effect.name=The current object is composited with internal buffers such as current object, "Temporal Buffer" or "Temporal Cache" in various ways.
+;effect.name=Combines the current object with internal buffers such as current object, "Temporal Buffer" or "Temporal Cache" in various ways.
 ;キャッシュ名=The part "---" of the cache name "cache:---". Valid only for "Temporal Cache".
-;追加のフィルタ効果=Before compositing, filter effects can be applied to the loaded image.
+;追加のフィルタ効果=Before composition, filter effects can be applied to the loaded image.
 
 [別レイヤー同期@Basic_S]
 別レイヤー同期@Basic_S=图层同步@Basic_S

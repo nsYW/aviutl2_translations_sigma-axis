@@ -1,6 +1,6 @@
 ;===============================================================
 ; Target: Basic_S (https://github.com/sigma-axis/aviutl2_script_Basic_S)
-; Target Version: v2.60
+; Target Version: v2.70
 ; Language: <Language Name>
 ; Translator(s):
 ;   <Name1>
@@ -629,8 +629,8 @@ effect.name=Draws a shadow of the outer boundary to the object itself.
 その他=Misc
 
 [Tips.画像ファイル合成@Basic_S]
-effect.name=The current object is composited with an image file in various ways. Video files cannot be loaded.
-追加のフィルタ効果=Before compositing, filter effects can be applied to the loaded image.
+effect.name=Combines the current object with an image file in various ways. Video files cannot be loaded.
+追加のフィルタ効果=Before composition, filter effects can be applied to the loaded image.
 
 [動画ファイル合成@Basic_S]
 動画ファイル合成@Basic_S=Video File Composition@Basic_S
@@ -683,9 +683,9 @@ effect.name=The current object is composited with an image file in various ways.
 その他=Misc
 
 [Tips.動画ファイル合成@Basic_S]
-effect.name=The current object is composited with a video file in various ways. Image files cannot be loaded.
+effect.name=Combines the current object with a video file in various ways. Image files cannot be loaded.
 再生速度=The playback position is calculated using the simple formula: elapsed time × playback speed.\nSo changing the playback speed during playback may cause jumps.
-追加のフィルタ効果=Before compositing, filter effects can be applied to the loaded image.
+追加のフィルタ効果=Before composition, filter effects can be applied to the loaded image.
 
 [テキスト合成@Basic_S]
 テキスト合成@Basic_S=Text Composition@Basic_S
@@ -772,8 +772,63 @@ effect.name=The current object is composited with a video file in various ways. 
 その他=Misc
 
 [Tips.テキスト合成@Basic_S]
-effect.name=The current object is composited with text in various ways, such as overlaying text on the object.
-追加のフィルタ効果=Before compositing, filter effects can be applied to the loaded image.
+effect.name=Combines the current object with text in various ways, such as overlaying text on the object.
+追加のフィルタ効果=Before composition, filter effects can be applied to the loaded image.
+
+[図形合成@Basic_S]
+図形合成@Basic_S=Figure Composition@Basic_S
+図形の種類=Figure Type
+サイズ=Size
+ライン幅=Line Width
+色=Color
+角を丸くする=Rounded Corners
+描画=Drawing
+拡大率=Zoom
+回転=Rotate
+透明度=Transparency
+サイズ固定=Fixed Size
+配置=Placement
+補間なし=No Interpolation
+画像ループ=Image Loop
+なし=None
+横=Horizontally
+縦=Vertically
+縦横=Both
+合成=Composition
+モード=Mode
+前方から合成=Composite from the Front
+前方から合成(クリッピング)=Composite from the Front (Clip)
+後方から合成=Composite from the Back
+後方から合成(クリッピング)=Composite from the Back (Clip)
+アルファ値を乗算=Multiply with Alpha
+色情報を上書き=Override Color
+輝度をアルファ値として上書き=Override Luminance as Alpha
+輝度をアルファ値として乗算=Multiply Luminance with Alpha
+合成モード=Blend Mode
+通常=Normal
+加算=Add
+減算=Subtract
+乗算=Multiply
+スクリーン=Screen
+オーバーレイ=Overlay
+比較(明)=Lighter
+比較(暗)=Darker
+輝度=Luminance
+色差=Chrominance
+陰影=Shading
+明暗=Light Dark
+差分=Difference
+追加効果=Extra Filters
+追加のフィルタ効果=Extra Filter Effects
+後続フィルタ=Subsequent Filters
+スクリプト実行=Run Script
+追加スクリプト=Script
+その他=Misc
+
+[Tips.図形合成@Basic_S]
+effect.name=Combines the current object with figures or SVG files in various ways.
+図形の種類=Click the button to select an SVG file.
+追加のフィルタ効果=Before composition, filter effects can be applied to the loaded image.
 
 [画像バッファ合成@Basic_S]
 画像バッファ合成@Basic_S=Image Buffer Composition@Basic_S
@@ -827,9 +882,9 @@ effect.name=The current object is composited with text in various ways, such as 
 その他=Misc
 
 [Tips.画像バッファ合成@Basic_S]
-effect.name=The current object is composited with internal buffers such as current object, "Temporal Buffer" or "Temporal Cache" in various ways.
+effect.name=Combines the current object with internal buffers such as current object, "Temporal Buffer" or "Temporal Cache" in various ways.
 キャッシュ名=The part "---" of the cache name "cache:---". Valid only for "Temporal Cache".
-追加のフィルタ効果=Before compositing, filter effects can be applied to the loaded image.
+追加のフィルタ効果=Before composition, filter effects can be applied to the loaded image.
 
 [別レイヤー同期@Basic_S]
 別レイヤー同期@Basic_S=Synchronize Layer@Basic_S
