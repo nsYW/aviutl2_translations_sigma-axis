@@ -704,6 +704,7 @@ Y長さ変更=更改Y长度
 ;図形合成@Basic_S=Figure Composition@Basic_S
 ;図形の種類=Figure Type
 サイズ=尺寸
+縦横比=长宽比
 ライン幅=线宽
 色=颜色
 ;角を丸くする=Rounded Corners
@@ -748,6 +749,7 @@ Y長さ変更=更改Y长度
 ;[Tips.図形合成@Basic_S]
 ;effect.name=Combines the current object with figures or SVG files in various ways.
 ;図形の種類=Click the button to select an SVG file.
+;縦横比=Positive: vertically long / Negative: horizontally long
 ;追加のフィルタ効果=Before composition, filter effects can be applied to the loaded image.
 
 [画像バッファ合成@Basic_S]

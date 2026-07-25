@@ -1,6 +1,6 @@
 ;===============================================================
 ; Target: Basic_S (https://github.com/sigma-axis/aviutl2_script_Basic_S)
-; Target Version: v2.70
+; Target Version: v2.71
 ; Language: <Language Name>
 ; Translator(s):
 ;   <Name1>
@@ -779,6 +779,7 @@ effect.name=Combines the current object with text in various ways, such as overl
 図形合成@Basic_S=Figure Composition@Basic_S
 図形の種類=Figure Type
 サイズ=Size
+縦横比=Aspect
 ライン幅=Line Width
 色=Color
 角を丸くする=Rounded Corners
@@ -828,6 +829,7 @@ effect.name=Combines the current object with text in various ways, such as overl
 [Tips.図形合成@Basic_S]
 effect.name=Combines the current object with figures or SVG files in various ways.
 図形の種類=Click the button to select an SVG file.
+縦横比=Positive: vertically long / Negative: horizontally long
 追加のフィルタ効果=Before composition, filter effects can be applied to the loaded image.
 
 [画像バッファ合成@Basic_S]
