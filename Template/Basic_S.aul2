@@ -991,7 +991,7 @@ effect.name=Generates rectangles and round-cornered squares. The width and heigh
 水平揃え=-100: Right / 0: Center / +100: Left
 垂直揃え=-100: Bottom / 0: Center / +100: Top
 丸角縦横比=Positive: Vertically long / Negative: Horizontally long
-丸角縦横比固定=When adjusting the the corner radius if the size is small compared to the radius, this fixes the aspect ratio of the rounded corners.
+丸角縦横比固定=When adjusting the corner radius if the size is small compared to the radius, this fixes the aspect ratio of the rounded corners.
 
 [楕円@Basic_S]
 楕円@Basic_S=Ellipse@Basic_S
@@ -1087,7 +1087,7 @@ effect.name=Loads the same image as another layer. Some information such as coor
 その他=Misc
 
 [Tips.バッファ読み込み@Basic_S]
-effect.name=Loads a specified buffer, such as "Temporal Buffer", whcih is used for "Temporal Buffer Output" or temporary drawing target for various scripts, or "Temporal Cache" which is used for temporary storage.
+effect.name=Loads a specified buffer, such as "Temporal Buffer", which is used for "Temporal Buffer Output" or temporary drawing target for various scripts, or "Temporal Cache" which is used for temporary storage.
 キャッシュ名=The part "---" of the cache name "cache:---". Valid only for "Temporal Cache".
 
 ;===============================

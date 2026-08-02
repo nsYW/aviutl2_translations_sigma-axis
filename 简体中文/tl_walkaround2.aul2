@@ -89,5 +89,7 @@ BPM移動分母:=BPM移动分母:
 
 ;オブジェクトを右へ複製=Duplicate Object to Right
 
+;選択オブジェクトのレイヤーを表示/非表示=Show/Hide Selected Object Layers
+
 カーソル位置を元に戻す=撤销光标位置
 カーソル位置をやり直す=重做光标位置

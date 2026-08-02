@@ -1,6 +1,6 @@
 ;===============================================================
 ; Target: TL Walkaround 2 (https://github.com/sigma-axis/aviutl2_tl_walkaround2)
-; Target Version: v1.90
+; Target Version: v2.00
 ; Language: English
 ; Translator(s):
 ;   sigma-axis (https://github.com/sigma-axis)
@@ -33,8 +33,8 @@ BPM移動分母:=Move N-th BPM Grid:
 
 左へ1ページ移動=Move Left by One Page
 右へ1ページ移動=Move Right by One Page
-左へ一定量移動=Move Left by Certain Aount
-右へ一定量移動=Move Right by Certain Aount
+左へ一定量移動=Move Left by Certain Amount
+右へ一定量移動=Move Right by Certain Amount
 
 選択オブジェクトへ移動=Move to Selected Object
 選択オブジェクトへ移動(フレームのみ)=Move to Selected Object (Frame)
@@ -43,8 +43,8 @@ BPM移動分母:=Move N-th BPM Grid:
 
 左へ1ページスクロール=Scroll Left by One Page
 右へ1ページスクロール=Scroll Right by One Page
-左へ一定量スクロール=Scroll Left by Certain Aount
-右へ一定量スクロール=Scroll Right by Certain Aount
+左へ一定量スクロール=Scroll Left by Certain Amount
+右へ一定量スクロール=Scroll Right by Certain Amount
 先頭へスクロール=Scroll to First
 最後へスクロール=Scroll to Last
 カーソル位置へスクロール=Scroll to Cursor
@@ -91,5 +91,7 @@ BPM移動分母:=Move N-th BPM Grid:
 
 オブジェクトを右へ複製=Duplicate Object to Right
 
+選択オブジェクトのレイヤーを表示/非表示=Show/Hide Selected Object Layers
+
 カーソル位置を元に戻す=Cursor Undo
-カーソル位置をやり直す=Cusror Redo
+カーソル位置をやり直す=Cursor Redo
