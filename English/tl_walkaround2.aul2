@@ -1,6 +1,6 @@
 ;===============================================================
 ; Target: TL Walkaround 2 (https://github.com/sigma-axis/aviutl2_tl_walkaround2)
-; Target Version: v2.00
+; Target Version: v2.10
 ; Language: English
 ; Translator(s):
 ;   sigma-axis (https://github.com/sigma-axis)
@@ -21,6 +21,7 @@ BPM移動分母:=Move N-th BPM Grid:
 長さの調整:=Stretch Object Length:
 秒=Seconds
 フレーム=Frames
+オブジェクト選択時にレイヤーも選択=Select Layer When Selecting Object
 
 左の中間点(レイヤー)=Left Intermediate Point (Layer)
 右の中間点(レイヤー)=Right Intermediate Point (Layer)
