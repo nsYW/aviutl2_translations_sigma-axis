@@ -78,7 +78,7 @@
 ;背景色=Inner color when Line Width is small enough
 ;背景パターン画像=Pattern image when Line Width is small enough
 ;背景透明度=Inner transparency when Line Width is small enough
-;縦横比=Positive: vertically long / Negative: horizontally long
+;丸角縦横比=Positive: vertically long / Negative: horizontally long
 ;丸角縦横比固定=On adjusting Radius when size of object is too small, fixes Aspect Ratio.
 
 [背景楕円@Basic_S]
@@ -162,6 +162,7 @@
 色調補正@Basic_S=色调修正@Basic_S
 明るさ=亮度
 コントラスト=对比度
+;ガンマ=Gamma
 輝度=发光度
 輝度反転=发光度反转
 彩度=色度
@@ -177,6 +178,7 @@ HSL(双円錐)=HSL(双圆锥)
 ;effect.name=Color correction that can select color spaces.
 ;明るさ=Adds a constant to luminance.
 ;コントラスト=Multiplies luminance and chrominance. Gray is the origin.
+;ガンマ=Gamma correction is applied after other color correction settings.
 ;輝度=Multiplies luminance. Black is the origin.
 ;彩度=Multiplies chrominance. Achromatic is the origin.
 ;飽和する=Clamps color components within 0% to 100% (if necessary).
@@ -228,6 +230,10 @@ HSL(双円錐)=HSL(双圆锥)
 
 [回転中心アンカー指定@Basic_S]
 回転中心アンカー指定@Basic_S=锚点指定旋转中心@Basic_S
+;アンカー範囲=Anchor Space
+;平面=Plane
+;空間=Space
+;相対指定=Relative
 その他=其他
 
 ;[Tips.回転中心アンカー指定@Basic_S]
@@ -315,6 +321,7 @@ Y軸=Y轴
 Y軸移動先X=Y轴映射至X
 Y軸移動先Y=Y轴映射至Y
 Y長さ変更=更改Y长度
+中心の位置を変更=中心点同步变化
 その他=其他
 互換対応(将来削除予定)=兼容支持 (未来移除)
 
@@ -350,6 +357,7 @@ Y長さ変更=更改Y长度
 整列=排列
 水平揃え=水平对齐
 垂直揃え=垂直对齐
+;回転中心を基準=Origins Rotation Center
 縦横無効化=禁用四方
 幅指定有効=启用宽度指定
 高さ指定有効=启用高度指定
@@ -374,6 +382,7 @@ Y長さ変更=更改Y长度
 切り取り線Y2=切割线Y2
 切り取り幅=切割宽度
 中心の位置を変更=中心点同步变化
+;回転中心を基準=Origins Rotation Center
 余白/重複処理=余白/重复处理
 余白処理=余白处理
 補間=插值
@@ -398,6 +407,7 @@ Y長さ変更=更改Y长度
 整列=排列
 水平揃え=水平对齐
 垂直揃え=垂直对齐
+;回転中心を基準=Origins Rotation Center
 余白/重複処理=余白/重复处理
 余白処理=余白处理
 補間=插值
@@ -487,9 +497,13 @@ Y長さ変更=更改Y长度
 縦横比=长宽比
 ぼかし=模糊
 縁色=描边颜色
+パターン画像設定=图案图像设置
 パターン画像=图案图像
 画像X=图像X
 画像Y=图像Y
+拡大率=缩放率
+回転=旋转
+補間なし=无插值
 その他=其他
 
 ;[Tips.四角縁取り@Basic_S]
@@ -513,6 +527,7 @@ Y長さ変更=更改Y长度
 輝度=亮度
 陰影=阴影
 差分=反差
+パターン画像設定=图案图像设置
 パターン画像=图案图像
 画像X=图像X
 画像Y=图像Y
@@ -1032,6 +1047,16 @@ N次式@Basic_S=N次方@Basic_S
 [円形@Basic_S]
 円形@Basic_S=圆形@Basic_S
 
+[等速移動@Basic_S]
+等速移動@Basic_S=匀速运动@Basic_S
+単位=Unit
+秒=
+フレーム=帧
+単位時間=单位时间
+;起点=Origin
+;始点=Start Point
+;終点=End Point
+
 [等速移動(秒)@Basic_S]
 等速移動(秒)@Basic_S=匀速运动(秒)@Basic_S
 単位時間(秒)=单位时间(秒)
@@ -1039,6 +1064,24 @@ N次式@Basic_S=N次方@Basic_S
 [等速移動(フレーム)@Basic_S]
 等速移動(フレーム)@Basic_S=匀速运动(帧)@Basic_S
 単位時間(フレーム)=单位时间(帧)
+
+[コマ落ち反復@Basic_S]
+コマ落ち反復@Basic_S=丢帧重复@Basic_S
+;周期の単位=Unit of Period
+秒=
+フレーム=帧
+;回数=Count
+;BPMグリッド(拍数線)=BPM Grid (Beat)
+;BPMグリッド(小節線)=BPM Grid (Measure)
+周期=
+;周期(分母)=Period (Denominator)
+周期ずれ%=周期偏移(%)
+;周期の起点=Origin of Period
+;始点=Start Point
+;終点=End Point
+;始点近くのグリッド(BPMグリッド)=Nearest Grid at Start (BPM Grid)
+;終点近くのグリッド(BPMグリッド)=Nearest Grid at End (BPM Grid)
+デューティ比%=负载循环(%)
 
 [コマ落ち反復(秒)@Basic_S]
 コマ落ち反復(秒)@Basic_S=丢帧重复(秒)@Basic_S
@@ -1074,6 +1117,24 @@ N次式@Basic_S=N次方@Basic_S
 周期ずれ%=周期偏移(%)
 デューティ比%=负载循环(%)
 
+[コマ落ちランダム@Basic_S]
+コマ落ちランダム@Basic_S=丢帧随机@Basic_S
+;周期の単位=Unit of Period
+秒=
+フレーム=帧
+;回数=Count
+;BPMグリッド(拍数線)=BPM Grid (Beat)
+;BPMグリッド(小節線)=BPM Grid (Measure)
+周期=
+;周期(分母)=Period (Denominator)
+周期ずれ%=周期偏移(%)
+;周期の起点=Origin of Period
+;始点=Start Point
+;終点=End Point
+;始点近くのグリッド(BPMグリッド)=Nearest Grid at Start (BPM Grid)
+;終点近くのグリッド(BPMグリッド)=Nearest Grid at End (BPM Grid)
+乱数シード=随机种子
+
 [コマ落ちランダム(秒)@Basic_S]
 コマ落ちランダム(秒)@Basic_S=丢帧随机(秒)@Basic_S
 周期ずれ%=周期偏移(%)
@@ -1107,6 +1168,50 @@ N次式@Basic_S=N次方@Basic_S
 ;周期(回数)=Period (Count)
 周期ずれ%=周期偏移(%)
 乱数シード=随机种子
+
+[コマ落ち時間制御@Basic_S]
+;コマ落ち時間制御@Basic_S=Discrete Time Control@Basic_S
+;周期の単位=Unit of Period
+秒=
+フレーム=帧
+;回数=Count
+;BPMグリッド(拍数線)=BPM Grid (Beat)
+;BPMグリッド(小節線)=BPM Grid (Measure)
+周期=
+;周期(分母)=Period (Denominator)
+周期ずれ%=周期偏移(%)
+;周期の起点=Origin of Period
+;始点=Start Point
+;終点=End Point
+;始点近くのグリッド(BPMグリッド)=Nearest Grid at Start (BPM Grid)
+;終点近くのグリッド(BPMグリッド)=Nearest Grid at End (BPM Grid)
+;モード=Mode
+;区間ごとに時間制御=Piecewise Time Control
+;全体で時間制御=Entire Time Control
+;区間ごとに時間制御(回転)=Piecewise Time Control (Rotation)
+;全体で時間制御(回転)=Entire Time Control (Rotation)
+1周角度=
+;サンプル位置%=Sample Position (%)
+
+[時間制御繰り返し@Basic_S]
+時間制御繰り返し@Basic_S=重复时间控制@Basic_S
+;周期の単位=Unit of Period
+秒=
+フレーム=帧
+;回数=Count
+;BPMグリッド(拍数線)=BPM Grid (Beat)
+;BPMグリッド(小節線)=BPM Grid (Measure)
+周期=
+;周期(分母)=Period (Denominator)
+周期ずれ%=周期偏移(%)
+;周期の起点=Origin of Period
+;始点=Start Point
+;終点=End Point
+;始点近くのグリッド(BPMグリッド)=Nearest Grid at Start (BPM Grid)
+;終点近くのグリッド(BPMグリッド)=Nearest Grid at End (BPM Grid)
+;モード=Mode
+;通常=Normal
+;往復=Back and Forth
 
 [時間制御繰り返し(秒)@Basic_S]
 時間制御繰り返し(秒)@Basic_S=重复时间控制(秒)@Basic_S
@@ -1208,6 +1313,7 @@ N次式@Basic_S=N次方@Basic_S
 ; Labels
 ;===============================
 [Effect]
+;Basic_S\非推奨=Basic_S\Obsolete
 
 ; .anm2
 Basic_S\クリッピング=Basic_S\裁剪

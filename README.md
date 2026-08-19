@@ -45,7 +45,7 @@ Currently this repository contains files for the following languages. Note that 
 
   http://spring-fragrance.mints.ne.jp/aviutl
 
-  - Confirmed to work on: `2.1.3a`
+  - Confirmed to work on: `2.1.5`
 
 ##  Installation
 
@@ -60,6 +60,7 @@ Currently this repository contains files for the following languages. Note that 
 - **r47** (2026-??-??)
 
   - \[English\] Fixed a few tooltip text did not appear correctly.
+  - \[English\] Updated translation for [Basic_S](https://github.com/sigma-axis/aviutl2_script_Basic_S) to follow up v2.80.
 
 ##  Update History
 

@@ -1,6 +1,6 @@
 ;===============================================================
 ; Target: Basic_S (https://github.com/sigma-axis/aviutl2_script_Basic_S)
-; Target Version: v2.71
+; Target Version: v2.80
 ; Language: English
 ; Translator(s):
 ;   sigma-axis (https://github.com/sigma-axis)
@@ -93,7 +93,7 @@ effect.name=Places a round rectangle to background.
 背景色=Inner color when Line Width is small enough
 背景パターン画像=Pattern image when Line Width is small enough
 背景透明度=Inner transparency when Line Width is small enough
-縦横比=Positive: vertically long / Negative: horizontally long
+丸角縦横比=Positive: vertically long / Negative: horizontally long
 丸角縦横比固定=On adjusting Radius when size of object is too small, fixes Aspect Ratio.
 
 [背景楕円@Basic_S]
@@ -191,6 +191,7 @@ effect.name=Binarizes transparency. Useful for clarifying blur boundaries.
 色調補正@Basic_S=Color Correction@Basic_S
 明るさ=Add Luminance
 コントラスト=Contrast
+ガンマ=Gamma
 色相=Hue
 輝度=Scale Luminance
 輝度反転=Invert Luminance
@@ -207,6 +208,7 @@ HSL(双円錐)=HSL(Biconic)
 effect.name=Color correction that can select color spaces.
 明るさ=Adds a constant to luminance.
 コントラスト=Multiplies luminance and chrominance. Gray is the origin.
+ガンマ=Gamma correction is applied after other color correction settings.
 輝度=Multiplies luminance. Black is the origin.
 彩度=Multiplies chrominance. Achromatic is the origin.
 飽和する=Clamps color components within 0% to 100% (if necessary).
@@ -258,6 +260,10 @@ effect.name=Moves the rotation center of the object.
 
 [回転中心アンカー指定@Basic_S]
 回転中心アンカー指定@Basic_S=Rotation Center by Anchor@Basic_S
+アンカー範囲=Anchor Space
+平面=Plane
+空間=Space
+相対指定=Relative
 その他=Misc
 
 [Tips.回転中心アンカー指定@Basic_S]
@@ -334,6 +340,7 @@ effect.name=Rotates the object around an axis along the line specified by an anc
 基準軸Y2=Baseline Y2
 その他=Misc
 互換対応(将来削除予定)=Legacy (Removed in Future)
+回転中心を基準=
 
 [Tips.傾斜@Basic_S]
 effect.name=Skews the object along the axis specified by an anchor.
@@ -350,6 +357,7 @@ Y軸=Y-axis
 Y軸移動先X=Y-axis Maps to X
 Y軸移動先Y=Y-axis Maps to Y
 Y長さ変更=Stretch Along Y
+中心の位置を変更=Move Center Position
 その他=Misc
 互換対応(将来削除予定)=Legacy (Removed in Future)
 
@@ -393,6 +401,7 @@ effect.name=Expands or clips the area, specified with the ratio of the current s
 整列=Alignment
 水平揃え=Horizontal Alignment
 垂直揃え=Vertical Alignment
+回転中心を基準=Origins Rotation Center
 縦横無効化=Disable
 幅指定有効=Enable Width
 高さ指定有効=Enable Height
@@ -417,6 +426,7 @@ effect.name=Expands or clips the area to result in the specified size.
 切り取り線Y2=Cut Line Y2
 切り取り幅=Crop Thickness
 中心の位置を変更=Change Center Position
+回転中心を基準=Origins Rotation Center
 余白/重複処理=Blank/Overlap
 余白処理=Blank
 空白=Empty
@@ -443,6 +453,7 @@ effect.name=Cuts the object along a line specified by an anchor, and moves to a 
 整列=Alignment
 水平揃え=Horizontal Alignment
 垂直揃え=Vertical Alignment
+回転中心を基準=Origins Rotation Center
 余白/重複処理=Blank/Overlap
 余白処理=Blank
 空白=Empty
@@ -545,9 +556,13 @@ effect.name=Blur filter that can apply a fractional blur radius.
 縁色=Border Color
 透明度=Transparency
 前景透明度=Foreground Transparency
+パターン画像設定=Pattern Image Settings
 パターン画像=Pattern Image
 画像X=Image X
 画像Y=Image Y
+拡大率=Zoom
+回転=Rotate
+補間なし=No Interpolation
 その他=Misc
 
 [Tips.四角縁取り@Basic_S]
@@ -573,6 +588,7 @@ effect.name=Border with square corners.
 陰影=Shading
 明暗=Light Dark
 差分=Difference
+パターン画像設定=Pattern Image Settings
 パターン画像=Pattern Image
 画像X=Image X
 画像Y=Image Y
@@ -1130,6 +1146,16 @@ N次式@Basic_S=Power Ease@Basic_S
 [円形@Basic_S]
 円形@Basic_S=Circle Ease@Basic_S
 
+[等速移動@Basic_S]
+等速移動@Basic_S=
+単位=Unit
+秒=Second
+フレーム=Frame
+単位時間=Unit Time
+起点=Origin
+始点=Start Point
+終点=End Point
+
 [等速移動(秒)@Basic_S]
 等速移動(秒)@Basic_S=Uniform Linear Motion (Second)@Basic_S
 単位時間(秒)=Unit Time (Second)
@@ -1137,6 +1163,24 @@ N次式@Basic_S=Power Ease@Basic_S
 [等速移動(フレーム)@Basic_S]
 等速移動(フレーム)@Basic_S=Uniform Linear Motion (Frame)@Basic_S
 単位時間(フレーム)=Unit Time (Frame)
+
+[コマ落ち反復@Basic_S]
+コマ落ち反復@Basic_S=Repeat Discrete@Basic_S
+周期の単位=Unit of Period
+秒=Second
+フレーム=Frame
+回数=Count
+BPMグリッド(拍数線)=BPM Grid (Beat)
+BPMグリッド(小節線)=BPM Grid (Measure)
+周期=Period
+周期(分母)=Period (Denominator)
+周期ずれ%=Initial Phase (%)
+周期の起点=Origin of Period
+始点=Start Point
+終点=End Point
+始点近くのグリッド(BPMグリッド)=Nearest Grid at Start (BPM Grid)
+終点近くのグリッド(BPMグリッド)=Nearest Grid at End (BPM Grid)
+デューティ比%=Duty Cycle (%)
 
 [コマ落ち反復(秒)@Basic_S]
 コマ落ち反復(秒)@Basic_S=Repeat Discrete (Second)@Basic_S
@@ -1176,6 +1220,24 @@ N次式@Basic_S=Power Ease@Basic_S
 周期ずれ%=Initial Phase (%)
 デューティ比%=Duty Cycle (%)
 
+[コマ落ちランダム@Basic_S]
+コマ落ちランダム@Basic_S=Random Discrete@Basic_S
+周期の単位=Unit of Period
+秒=Second
+フレーム=Frame
+回数=Count
+BPMグリッド(拍数線)=BPM Grid (Beat)
+BPMグリッド(小節線)=BPM Grid (Measure)
+周期=Period
+周期(分母)=Period (Denominator)
+周期ずれ%=Initial Phase (%)
+周期の起点=Origin of Period
+始点=Start Point
+終点=End Point
+始点近くのグリッド(BPMグリッド)=Nearest Grid at Start (BPM Grid)
+終点近くのグリッド(BPMグリッド)=Nearest Grid at End (BPM Grid)
+乱数シード=Random Seed
+
 [コマ落ちランダム(秒)@Basic_S]
 コマ落ちランダム(秒)@Basic_S=Random Discrete (Second)@Basic_S
 周期(秒)=Period (Second)
@@ -1213,6 +1275,50 @@ N次式@Basic_S=Power Ease@Basic_S
 周期(回数)=Period (Count)
 周期ずれ%=Initial Phase (%)
 乱数シード=Random Seed
+
+[コマ落ち時間制御@Basic_S]
+コマ落ち時間制御@Basic_S=Discrete Time Control@Basic_S
+周期の単位=Unit of Period
+秒=Second
+フレーム=Frame
+回数=Count
+BPMグリッド(拍数線)=BPM Grid (Beat)
+BPMグリッド(小節線)=BPM Grid (Measure)
+周期=Period
+周期(分母)=Period (Denominator)
+周期ずれ%=Initial Phase (%)
+周期の起点=Origin of Period
+始点=Start Point
+終点=End Point
+始点近くのグリッド(BPMグリッド)=Nearest Grid at Start (BPM Grid)
+終点近くのグリッド(BPMグリッド)=Nearest Grid at End (BPM Grid)
+モード=Mode
+区間ごとに時間制御=Piecewise Time Control
+全体で時間制御=Entire Time Control
+区間ごとに時間制御(回転)=Piecewise Time Control (Rotation)
+全体で時間制御(回転)=Entire Time Control (Rotation)
+1周角度=One Cycle
+サンプル位置%=Sample Position (%)
+
+[時間制御繰り返し@Basic_S]
+時間制御繰り返し@Basic_S=Repeat Time Control@Basic_S
+周期の単位=Unit of Period
+秒=Second
+フレーム=Frame
+回数=Count
+BPMグリッド(拍数線)=BPM Grid (Beat)
+BPMグリッド(小節線)=BPM Grid (Measure)
+周期=Period
+周期(分母)=Period (Denominator)
+周期ずれ%=Initial Phase (%)
+周期の起点=Origin of Period
+始点=Start Point
+終点=End Point
+始点近くのグリッド(BPMグリッド)=Nearest Grid at Start (BPM Grid)
+終点近くのグリッド(BPMグリッド)=Nearest Grid at End (BPM Grid)
+モード=Mode
+通常=Normal
+往復=Back and Forth
 
 [時間制御繰り返し(秒)@Basic_S]
 時間制御繰り返し(秒)@Basic_S=Repeat Time Control (Second)@Basic_S
@@ -1326,6 +1432,7 @@ N次式@Basic_S=Power Ease@Basic_S
 ; Labels
 ;===============================
 [Effect]
+Basic_S\非推奨=Basic_S\Obsolete
 
 ; .anm2
 Basic_S\クリッピング=Basic_S\Clipping
