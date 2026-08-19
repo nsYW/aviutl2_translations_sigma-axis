@@ -55,15 +55,13 @@ Currently this repository contains files for the following languages. Note that 
 
 1.  Select the language in the language setting menu.
 
-##  Upcoming Update
+##  Update History
 
-- **r47** (2026-??-??)
+- **r47** (2026-08-20)
 
   - \[English\] Fixed a few tooltip text did not appear correctly.
   - \[English\] Updated translation for [Basic_S](https://github.com/sigma-axis/aviutl2_script_Basic_S) to follow up v2.80.
   - \[English\] Updated translation for [TL Walkaround 2](https://github.com/sigma-axis/aviutl2_tl_walkaround2) to follow up v2.30.
-
-##  Update History
 
 - **r46** (2026-08-03)
 
