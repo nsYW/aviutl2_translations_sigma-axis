@@ -55,6 +55,12 @@ Currently this repository contains files for the following languages. Note that 
 
 1.  Select the language in the language setting menu.
 
+##  Upcoming Update
+
+- **r47** (2026-??-??)
+
+  - \[English\] Fixed a few tooltip text did not appear correctly.
+
 ##  Update History
 
 - **r46** (2026-08-03)

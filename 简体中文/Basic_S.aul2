@@ -106,7 +106,7 @@
 ;effect.name=Places an ellipse to background.
 ;クリッピング=How the part out of the background figure is displayed
 ;包含=Adjusts the base size so the original object is contained in the background figure.
-;真円=Forces Height match Width. Height is ignored.
+;真円=Forces Height match Width.
 ;背景色=Inner color when Line Width is small enough
 ;背景パターン画像=Pattern image when Line Width is small enough
 ;背景透明度=Inner transparency when Line Width is small enough
@@ -135,7 +135,7 @@
 ;effect.name=Places a rhombus to background.
 ;クリッピング=How the part out of the background figure is displayed
 ;包含=Adjusts the base size so the original object is contained in the background figure.
-;正方形=Forces Height match Width. Height is ignored.
+;正方形=Forces Height match Width.
 ;背景色=Inner color when Line Width is small enough
 ;背景パターン画像=Pattern image when Line Width is small enough
 ;背景透明度=Inner transparency when Line Width is small enough
@@ -844,8 +844,9 @@ Z同期%=Z同步%
 
 ;[Tips.バッファをコピー@Basic_S]
 ;effect.name=Performs a copy operation between internal buffers, such as the current object, "Temporal Buffer", or "Temporal Cache".
+;src::キャッシュ名=The part "---" of the cache name "cache:---". Valid only for "Temporal Cache".
 ;コピー先=When copying to the frame buffer, the source must match the scene size.
-;キャッシュ名=The part "---" of the cache name "cache:---". Valid only for "Temporal Cache".
+;dst::キャッシュ名=The part "---" of the cache name "cache:---". Valid only for "Temporal Cache".
 
 [バッファをクリア@Basic_S]
 バッファをクリア@Basic_S=清除缓存@Basic_S
