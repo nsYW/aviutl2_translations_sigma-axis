@@ -57,7 +57,7 @@ Currently this repository contains files for the following languages. Note that 
 
 ##  Known Issue
 
-- Due to the behavior of AviUtl2 (v2.1.5), words in the setting dialog of easing scripts (`.tra2`) are not translated.
+- Due to the behavior of AviUtl2 (v2.1.5), some words in the setting dialog of easing scripts (`.tra2`) are not translated.
 
 ##  Update History
 
