@@ -1,6 +1,6 @@
 ;===============================================================
 ; Target: TL Walkaround 2 (https://github.com/sigma-axis/aviutl2_tl_walkaround2)
-; Target Version: v2.10
+; Target Version: v2.30
 ; Language: <Language Name>
 ; Translator(s):
 ;   <Name1>
@@ -23,6 +23,7 @@ BPM移動分母:=Move N-th BPM Grid:
 秒=Seconds
 フレーム=Frames
 オブジェクト選択時にレイヤーも選択=Select Layer When Selecting Object
+オブジェクト選択時にスクロール追従=Scroll to Object When Selecting
 
 左の中間点(レイヤー)=Left Intermediate Point (Layer)
 右の中間点(レイヤー)=Right Intermediate Point (Layer)
@@ -33,6 +34,19 @@ BPM移動分母:=Move N-th BPM Grid:
 左の境界(シーン)=Left Object Boundary (Scene)
 右の境界(シーン)=Right Object Boundary (Scene)
 
+左のマーク=Move to Left Mark
+右のマーク=Move to Right Mark
+マークへ移動 (1)=Move to Mark (1)
+マークへ移動 (2)=Move to Mark (2)
+マークへ移動 (3)=Move to Mark (3)
+マークへ移動 (4)=Move to Mark (4)
+マークへ移動 (5)=Move to Mark (5)
+マークへ移動 (6)=Move to Mark (6)
+マークへ移動 (7)=Move to Mark (7)
+マークへ移動 (8)=Move to Mark (8)
+マークへ移動 (9)=Move to Mark (9)
+マークへ移動 (10)=Move to Mark (10)
+
 左へ1ページ移動=Move Left by One Page
 右へ1ページ移動=Move Right by One Page
 左へ一定量移動=Move Left by Certain Amount
@@ -42,6 +56,19 @@ BPM移動分母:=Move N-th BPM Grid:
 選択オブジェクトへ移動(フレームのみ)=Move to Selected Object (Frame)
 選択オブジェクトへ移動(レイヤーのみ)=Move to Selected Object (Layer)
 タイムラインの中央へ移動=Move to Center of Timeline
+
+左のマークへスクロール=Scroll to Left Mark
+右のマークへスクロール=Scroll to Right Mark
+マークへスクロール (1)=Scroll to Mark (1)
+マークへスクロール (2)=Scroll to Mark (2)
+マークへスクロール (3)=Scroll to Mark (3)
+マークへスクロール (4)=Scroll to Mark (4)
+マークへスクロール (5)=Scroll to Mark (5)
+マークへスクロール (6)=Scroll to Mark (6)
+マークへスクロール (7)=Scroll to Mark (7)
+マークへスクロール (8)=Scroll to Mark (8)
+マークへスクロール (9)=Scroll to Mark (9)
+マークへスクロール (10)=Scroll to Mark (10)
 
 左へ1ページスクロール=Scroll Left by One Page
 右へ1ページスクロール=Scroll Right by One Page
@@ -94,6 +121,8 @@ BPM移動分母:=Move N-th BPM Grid:
 オブジェクトを右へ複製=Duplicate Object to Right
 
 選択オブジェクトのレイヤーを表示/非表示=Show/Hide Selected Object Layers
+
+無名マークを追加/削除=Add/Remove Unnamed Mark
 
 カーソル位置を元に戻す=Cursor Undo
 カーソル位置をやり直す=Cursor Redo

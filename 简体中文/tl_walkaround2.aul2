@@ -22,6 +22,7 @@ BPM移動分母:=BPM移动分母:
 秒=秒
 フレーム=帧
 ;オブジェクト選択時にレイヤーも選択=Select Layer When Selecting Object
+;オブジェクト選択時にスクロール追従=Scroll to Object When Selecting
 
 左の中間点(レイヤー)=左侧中间点(图层)
 右の中間点(レイヤー)=右侧中间点(图层)
@@ -32,6 +33,19 @@ BPM移動分母:=BPM移动分母:
 左の境界(シーン)=左侧边缘(场景)
 右の境界(シーン)=右侧边缘(场景)
 
+;左のマーク=Move to Left Mark
+;右のマーク=Move to Right Mark
+;マークへ移動 (1)=Move to Mark (1)
+;マークへ移動 (2)=Move to Mark (2)
+;マークへ移動 (3)=Move to Mark (3)
+;マークへ移動 (4)=Move to Mark (4)
+;マークへ移動 (5)=Move to Mark (5)
+;マークへ移動 (6)=Move to Mark (6)
+;マークへ移動 (7)=Move to Mark (7)
+;マークへ移動 (8)=Move to Mark (8)
+;マークへ移動 (9)=Move to Mark (9)
+;マークへ移動 (10)=Move to Mark (10)
+
 左へ1ページ移動=向左移动一页
 右へ1ページ移動=向右移动一页
 左へ一定量移動=向左定量移动
@@ -41,6 +55,19 @@ BPM移動分母:=BPM移动分母:
 選択オブジェクトへ移動(フレームのみ)=移动到选中对象(仅帧)
 選択オブジェクトへ移動(レイヤーのみ)=移动到选中对象(仅图层)
 タイムラインの中央へ移動=移动到时间轴中央
+
+;左のマークへスクロール=Scroll to Left Mark
+;右のマークへスクロール=Scroll to Right Mark
+;マークへスクロール (1)=Scroll to Mark (1)
+;マークへスクロール (2)=Scroll to Mark (2)
+;マークへスクロール (3)=Scroll to Mark (3)
+;マークへスクロール (4)=Scroll to Mark (4)
+;マークへスクロール (5)=Scroll to Mark (5)
+;マークへスクロール (6)=Scroll to Mark (6)
+;マークへスクロール (7)=Scroll to Mark (7)
+;マークへスクロール (8)=Scroll to Mark (8)
+;マークへスクロール (9)=Scroll to Mark (9)
+;マークへスクロール (10)=Scroll to Mark (10)
 
 左へ1ページスクロール=向左滚动一页
 右へ1ページスクロール=向右滚动一页
@@ -87,10 +114,14 @@ BPM移動分母:=BPM移动分母:
 
 選択オブジェクトの始点を伸ばす=延长选中物件的起点
 選択オブジェクトの終点を伸ばす=延长选中物件的终点
+;選択オブジェクトの始点を現在フレームに伸ばす=Extend the Start of Selected Objects to Cursor
+;選択オブジェクトの終点を現在フレームに伸ばす=Extend the End of Selected Objects to Cursor
 
 ;オブジェクトを右へ複製=Duplicate Object to Right
 
 ;選択オブジェクトのレイヤーを表示/非表示=Show/Hide Selected Object Layers
+
+;無名マークを追加/削除=Add/Remove Unnamed Mark
 
 カーソル位置を元に戻す=撤销光标位置
 カーソル位置をやり直す=重做光标位置
