@@ -55,7 +55,15 @@ Currently this repository contains files for the following languages. Note that 
 
 1.  Select the language in the language setting menu.
 
+##  Known Issue
+
+- Due to the behavior of AviUtl2 (v2.1.5), words in the setting dialog of easing scripts (`.tra2`) are not translated.
+
 ##  Update History
+
+- **r48** (2026-08-20)
+
+  - \[English\] Fixed a missing translation for [Basic_S](https://github.com/sigma-axis/aviutl2_script_Basic_S).
 
 - **r47** (2026-08-20)
 
