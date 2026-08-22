@@ -45,7 +45,7 @@ Currently this repository contains files for the following languages. Note that 
 
   http://spring-fragrance.mints.ne.jp/aviutl
 
-  - Confirmed to work on: `2.1.5`
+  - Confirmed to work on: `2.1.6`
 
 ##  Installation
 
@@ -54,10 +54,6 @@ Currently this repository contains files for the following languages. Note that 
 1.  Then drag and drop the file to the preview window of AviUtl2. AviUtl2 will automatically restart.
 
 1.  Select the language in the language setting menu.
-
-##  Known Issue
-
-- Due to the behavior of AviUtl2 (v2.1.5), some words in the setting dialog of easing scripts (`.tra2`) are not translated.
 
 ##  Update History
 
