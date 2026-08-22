@@ -1,6 +1,6 @@
 ;===============================================================
 ; Target: Basic_S (https://github.com/sigma-axis/aviutl2_script_Basic_S)
-; Target Version: v2.80
+; Target Version: v2.83
 ; Language: English
 ; Translator(s):
 ;   sigma-axis (https://github.com/sigma-axis)
@@ -1173,6 +1173,7 @@ N次式@Basic_S=Power Ease@Basic_S
 BPMグリッド(拍数線)=BPM Grid (Beat)
 BPMグリッド(小節線)=BPM Grid (Measure)
 周期=Period
+周期(倍率)=Period (Multiplier)
 周期(分母)=Period (Denominator)
 周期ずれ%=Initial Phase (%)
 周期の起点=Origin of Period
@@ -1229,6 +1230,7 @@ BPMグリッド(小節線)=BPM Grid (Measure)
 BPMグリッド(拍数線)=BPM Grid (Beat)
 BPMグリッド(小節線)=BPM Grid (Measure)
 周期=Period
+周期(倍率)=Period (Multiplier)
 周期(分母)=Period (Denominator)
 周期ずれ%=Initial Phase (%)
 周期の起点=Origin of Period
@@ -1285,6 +1287,7 @@ BPMグリッド(小節線)=BPM Grid (Measure)
 BPMグリッド(拍数線)=BPM Grid (Beat)
 BPMグリッド(小節線)=BPM Grid (Measure)
 周期=Period
+周期(倍率)=Period (Multiplier)
 周期(分母)=Period (Denominator)
 周期ずれ%=Initial Phase (%)
 周期の起点=Origin of Period
@@ -1309,6 +1312,7 @@ BPMグリッド(小節線)=BPM Grid (Measure)
 BPMグリッド(拍数線)=BPM Grid (Beat)
 BPMグリッド(小節線)=BPM Grid (Measure)
 周期=Period
+周期(倍率)=Period (Multiplier)
 周期(分母)=Period (Denominator)
 周期ずれ%=Initial Phase (%)
 周期の起点=Origin of Period
